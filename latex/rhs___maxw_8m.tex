@@ -1,0 +1,119 @@
+\hypertarget{rhs___maxw_8m}{\section{rhs\-\_\-\-Maxw.\-m File Reference}
+\label{rhs___maxw_8m}\index{rhs\-\_\-\-Maxw.\-m@{rhs\-\_\-\-Maxw.\-m}}
+}
+
+
+Acopla la matriz de lado derecho local \[ \int_{\Omega}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D)  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, F $>$ \hyperlink{rhs___maxw_8m_a0611963c1c76c278859f84cefa8df08f}{rhs\-\_\-\-Maxw} (matlabtypesubstitute u, matlabtypesubstitute rhs, matlabtypesubstitute i, matlabtypesubstitute Z)
+\begin{DoxyCompactList}\small\item\em Acopla la matriz de lado derecho local \[ \int_{\Omega}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) \end{DoxyCompactList}\item 
+mlhs\-Subst$<$ mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, B $>$\\*
+,mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, C $>$ $>$ \hyperlink{rhs___maxw_8m_a2848e8dd44d0e32a463abc0fd98e5d85}{mtoc\-\_\-subst\-\_\-rhs\-\_\-\-Maxw\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-rhs\-\_\-\-Maxw\-\_\-elem} (matlabtypesubstitute u, matlabtypesubstitute rhs, matlabtypesubstitute k, matlabtypesubstitute a, matlabtypesubstitute b)
+\begin{DoxyCompactList}\small\item\em Calcula la matriz de lado derecho local \[ \int_{T_i}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Acopla la matriz de lado derecho local \[ \int_{\Omega}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) 
+
+\subsection{Function Documentation}
+\hypertarget{rhs___maxw_8m_a2848e8dd44d0e32a463abc0fd98e5d85}{\index{rhs\-\_\-\-Maxw.\-m@{rhs\-\_\-\-Maxw.\-m}!mtoc\-\_\-subst\-\_\-rhs\-\_\-\-Maxw\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-rhs\-\_\-\-Maxw\-\_\-elem@{mtoc\-\_\-subst\-\_\-rhs\-\_\-\-Maxw\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-rhs\-\_\-\-Maxw\-\_\-elem}}
+\index{mtoc\-\_\-subst\-\_\-rhs\-\_\-\-Maxw\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-rhs\-\_\-\-Maxw\-\_\-elem@{mtoc\-\_\-subst\-\_\-rhs\-\_\-\-Maxw\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-rhs\-\_\-\-Maxw\-\_\-elem}!rhs_Maxw.m@{rhs\-\_\-\-Maxw.\-m}}
+\subsubsection[{mtoc\-\_\-subst\-\_\-rhs\-\_\-\-Maxw\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-rhs\-\_\-\-Maxw\-\_\-elem}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Subst$<$ mlhs\-Inner\-Subst$<$ matlabtypesubstitute, B $>$,mlhs\-Inner\-Subst$<$ matlabtypesubstitute, C $>$ $>$ {\bf mtoc\-\_\-subst\-\_\-rhs\-\_\-\-Maxw\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-rhs\-\_\-\-Maxw\-\_\-elem} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{rhs, }
+\item[{matlabtypesubstitute}]{k, }
+\item[{matlabtypesubstitute}]{a, }
+\item[{matlabtypesubstitute}]{b}
+\end{DoxyParamCaption}
+)}}\label{rhs___maxw_8m_a2848e8dd44d0e32a463abc0fd98e5d85}
+
+
+Calcula la matriz de lado derecho local \[ \int_{T_i}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em rhs} & Id. de la solución exacta. \\
+\hline
+{\em k} & Id del elemento en la triangulación \\
+\hline
+{\em a} & Lado izquierdo del intervalo del tiempo \\
+\hline
+{\em b} & Lado derecho del intervalo del tiempo\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em B} & Matriz. Lado derecho asociado al curl curl u \\
+\hline
+{\em C} & Matriz. Lado derecho asociado al $ \partial_t u $\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of u\-:}
+\begin{DoxyItemize}
+\item {\ttfamily u.\-pnod~---~} nodos globales asociadas al elemento i \item {\ttfamily u.\-node~---~} coordenadas de los elementos de la triangulación \end{DoxyItemize}
+
+\end{DoxyParagraph}
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+
+Catalina Dominguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/03-\/20 
+\end{DoxyDate}
+\hypertarget{rhs___maxw_8m_a0611963c1c76c278859f84cefa8df08f}{\index{rhs\-\_\-\-Maxw.\-m@{rhs\-\_\-\-Maxw.\-m}!rhs\-\_\-\-Maxw@{rhs\-\_\-\-Maxw}}
+\index{rhs\-\_\-\-Maxw@{rhs\-\_\-\-Maxw}!rhs_Maxw.m@{rhs\-\_\-\-Maxw.\-m}}
+\subsubsection[{rhs\-\_\-\-Maxw}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, F $>$ {\bf rhs\-\_\-\-Maxw} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{rhs, }
+\item[{matlabtypesubstitute}]{i, }
+\item[{matlabtypesubstitute}]{Z}
+\end{DoxyParamCaption}
+)}}\label{rhs___maxw_8m_a0611963c1c76c278859f84cefa8df08f}
+
+
+Acopla la matriz de lado derecho local \[ \int_{\Omega}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em rhs} & Id. de la solución exacta. \\
+\hline
+{\em i} & Id del elemento en la triangulación \\
+\hline
+{\em Z} & Estructura del tiempo\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em F} & Matriz. Lado derecho\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of u\-:}
+\begin{DoxyItemize}
+\item {\ttfamily u.\-pnod~---~} nodos globales asociadas al elemento i \item {\ttfamily u.\-node~---~} coordenadas de los elementos de la triangulación \end{DoxyItemize}
+
+\end{DoxyParagraph}
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+
+Catalina Dominguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/03-\/20
+\end{DoxyDate}
+\begin{DoxyParagraph}{Required fields of Z\-:}
+
+\end{DoxyParagraph}

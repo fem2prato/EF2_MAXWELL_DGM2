@@ -1,0 +1,104 @@
+\hypertarget{_stiff___maxwell_8m}{\section{Stiff\-\_\-\-Maxwell.\-m File Reference}
+\label{_stiff___maxwell_8m}\index{Stiff\-\_\-\-Maxwell.\-m@{Stiff\-\_\-\-Maxwell.\-m}}
+}
+
+
+Calcula la matriz de rigidez local $ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D)  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+mlhs\-Subst$<$ mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, M $>$\\*
+,mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, S $>$ $>$ \hyperlink{_stiff___maxwell_8m_ae71a076bdebe889a60280f03734e4df0}{Stiff\-\_\-\-Maxwell} (matlabtypesubstitute u, matlabtypesubstitute k)
+\begin{DoxyCompactList}\small\item\em Calcula la matriz de rigidez local $ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) \end{DoxyCompactList}\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, curl\-\_\-w $>$ \hyperlink{_stiff___maxwell_8m_a8c5a4658d693facc7df0f7de9761b1ee}{mtoc\-\_\-subst\-\_\-\-Stiff\-\_\-\-Maxwell\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-\-Curl\-\_\-whitney\-\_\-maxwell} (matlabtypesubstitute u, matlabtypesubstitute i, matlabtypesubstitute co)
+\begin{DoxyCompactList}\small\item\em Calcula el rotacional $ \mrom{curl}\,\bds{\phi}_j$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calcula la matriz de rigidez local $ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) 
+
+\subsection{Function Documentation}
+\hypertarget{_stiff___maxwell_8m_a8c5a4658d693facc7df0f7de9761b1ee}{\index{Stiff\-\_\-\-Maxwell.\-m@{Stiff\-\_\-\-Maxwell.\-m}!mtoc\-\_\-subst\-\_\-\-Stiff\-\_\-\-Maxwell\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-\-Curl\-\_\-whitney\-\_\-maxwell@{mtoc\-\_\-subst\-\_\-\-Stiff\-\_\-\-Maxwell\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-\-Curl\-\_\-whitney\-\_\-maxwell}}
+\index{mtoc\-\_\-subst\-\_\-\-Stiff\-\_\-\-Maxwell\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-\-Curl\-\_\-whitney\-\_\-maxwell@{mtoc\-\_\-subst\-\_\-\-Stiff\-\_\-\-Maxwell\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-\-Curl\-\_\-whitney\-\_\-maxwell}!Stiff_Maxwell.m@{Stiff\-\_\-\-Maxwell.\-m}}
+\subsubsection[{mtoc\-\_\-subst\-\_\-\-Stiff\-\_\-\-Maxwell\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-\-Curl\-\_\-whitney\-\_\-maxwell}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, curl\-\_\-w $>$ {\bf mtoc\-\_\-subst\-\_\-\-Stiff\-\_\-\-Maxwell\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-\-Curl\-\_\-whitney\-\_\-maxwell} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{i, }
+\item[{matlabtypesubstitute}]{co}
+\end{DoxyParamCaption}
+)}}\label{_stiff___maxwell_8m_a8c5a4658d693facc7df0f7de9761b1ee}
+
+
+Calcula el rotacional $ \mrom{curl}\,\bds{\phi}_j$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em i} & Id del elemento en la triangulación \\
+\hline
+{\em co} & Lista de orden de los nodos\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em curl\-\_\-w} & rotacional\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of u\-:}
+\begin{DoxyItemize}
+\item {\ttfamily u.\-alfa~---~} coordenadas barcetricas asociadas al elemento i \end{DoxyItemize}
+
+\end{DoxyParagraph}
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/04-\/25 \begin{DoxyItemize}
+\item {\ttfamily alfa~---~} alfa \end{DoxyItemize}
+
+\end{DoxyDate}
+\hypertarget{_stiff___maxwell_8m_ae71a076bdebe889a60280f03734e4df0}{\index{Stiff\-\_\-\-Maxwell.\-m@{Stiff\-\_\-\-Maxwell.\-m}!Stiff\-\_\-\-Maxwell@{Stiff\-\_\-\-Maxwell}}
+\index{Stiff\-\_\-\-Maxwell@{Stiff\-\_\-\-Maxwell}!Stiff_Maxwell.m@{Stiff\-\_\-\-Maxwell.\-m}}
+\subsubsection[{Stiff\-\_\-\-Maxwell}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Subst$<$ mlhs\-Inner\-Subst$<$ matlabtypesubstitute, M $>$,mlhs\-Inner\-Subst$<$ matlabtypesubstitute, S $>$ $>$ {\bf Stiff\-\_\-\-Maxwell} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{k}
+\end{DoxyParamCaption}
+)}}\label{_stiff___maxwell_8m_ae71a076bdebe889a60280f03734e4df0}
+
+
+Calcula la matriz de rigidez local $ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em k} & Id del elemento en la triangulación\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em M} & matriz de rigidez \\
+\hline
+{\em S} & S\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of u\-:}
+\begin{DoxyItemize}
+\item {\ttfamily u.\-pnod~---~} nodos globales asociadas al elemento i \item {\ttfamily u.\-node~---~} coordenadas de los elementos de la triangulación \end{DoxyItemize}
+
+\end{DoxyParagraph}
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/04-\/25 \begin{DoxyItemize}
+\item {\ttfamily pnod~---~} pnod \item {\ttfamily node~---~} node \end{DoxyItemize}
+
+\end{DoxyDate}

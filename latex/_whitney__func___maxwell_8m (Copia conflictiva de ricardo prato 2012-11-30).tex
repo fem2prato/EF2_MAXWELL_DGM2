@@ -1,0 +1,61 @@
+\hypertarget{_whitney__func___maxwell_8m}{\section{Whitney\-\_\-func\-\_\-\-Maxwell.\-m File Reference}
+\label{_whitney__func___maxwell_8m}\index{Whitney\-\_\-func\-\_\-\-Maxwell.\-m@{Whitney\-\_\-func\-\_\-\-Maxwell.\-m}}
+}
+
+
+Calcula el valor en el punto $ \bds{x}$ de la función base $\bds{\phi}^i$ (elementos de Whitney 2\-D) definido por \[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \] donde $ co=[k,\, j] $.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, v $>$ \hyperlink{_whitney__func___maxwell_8m_a51fdb01dfa49822ae395d6a977e76a5e}{Whitney\-\_\-func\-\_\-\-Maxwell} (matlabtypesubstitute u, matlabtypesubstitute i, matlabtypesubstitute co, matlabtypesubstitute x)
+\begin{DoxyCompactList}\small\item\em Calcula el valor en el punto $ \bds{x}$ de la función base $\bds{\phi}^i$ (elementos de Whitney 2\-D) definido por \[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \] donde $ co=[k,\, j] $. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calcula el valor en el punto $ \bds{x}$ de la función base $\bds{\phi}^i$ (elementos de Whitney 2\-D) definido por \[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \] donde $ co=[k,\, j] $. 
+
+\subsection{Function Documentation}
+\hypertarget{_whitney__func___maxwell_8m_a51fdb01dfa49822ae395d6a977e76a5e}{\index{Whitney\-\_\-func\-\_\-\-Maxwell.\-m@{Whitney\-\_\-func\-\_\-\-Maxwell.\-m}!Whitney\-\_\-func\-\_\-\-Maxwell@{Whitney\-\_\-func\-\_\-\-Maxwell}}
+\index{Whitney\-\_\-func\-\_\-\-Maxwell@{Whitney\-\_\-func\-\_\-\-Maxwell}!Whitney_func_Maxwell.m@{Whitney\-\_\-func\-\_\-\-Maxwell.\-m}}
+\subsubsection[{Whitney\-\_\-func\-\_\-\-Maxwell}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, v $>$ {\bf Whitney\-\_\-func\-\_\-\-Maxwell} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{i, }
+\item[{matlabtypesubstitute}]{co, }
+\item[{matlabtypesubstitute}]{x}
+\end{DoxyParamCaption}
+)}}\label{_whitney__func___maxwell_8m_a51fdb01dfa49822ae395d6a977e76a5e}
+
+
+Calcula el valor en el punto $ \bds{x}$ de la función base $\bds{\phi}^i$ (elementos de Whitney 2\-D) definido por \[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \] donde $ co=[k,\, j] $. 
+
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/04-\/24
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em i} & Id del elemento en la triangulación \\
+\hline
+{\em co} & Lista de orden de los nodos \\
+\hline
+{\em x} & punto\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em v} & $\bds{\phi}_j^i(\bds{x} )$\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of u\-:}
+\begin{DoxyItemize}
+\item {\ttfamily u.\-alfa~---~} coordenadas baricentricas asociadas al elemento i \item {\ttfamily alfa~---~} alfa \end{DoxyItemize}
+
+\end{DoxyParagraph}

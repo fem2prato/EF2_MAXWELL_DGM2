@@ -1,0 +1,84 @@
+\indexentry{cell@{cell}|hyperpage}{11}
+\indexentry{char@{char}|hyperpage}{11}
+\indexentry{colvec@{colvec}|hyperpage}{12}
+\indexentry{double@{double}|hyperpage}{12}
+\indexentry{function\discretionary {-}{}{}\_\discretionary {-}{}{}handle@{function\discretionary {-}{}{}\_\discretionary {-}{}{}handle}|hyperpage}{12}
+\indexentry{handle@{handle}|hyperpage}{13}
+\indexentry{handle@{handle}!addlistener@{addlistener}|hyperpage}{14}
+\indexentry{addlistener@{addlistener}!handle@{handle}|hyperpage}{14}
+\indexentry{handle@{handle}!delete@{delete}|hyperpage}{14}
+\indexentry{delete@{delete}!handle@{handle}|hyperpage}{14}
+\indexentry{handle@{handle}!disp@{disp}|hyperpage}{14}
+\indexentry{disp@{disp}!handle@{handle}|hyperpage}{14}
+\indexentry{handle@{handle}!display@{display}|hyperpage}{14}
+\indexentry{display@{display}!handle@{handle}|hyperpage}{14}
+\indexentry{handle@{handle}!eq@{eq}|hyperpage}{14}
+\indexentry{eq@{eq}!handle@{handle}|hyperpage}{14}
+\indexentry{handle@{handle}!fieldnames@{fieldnames}|hyperpage}{14}
+\indexentry{fieldnames@{fieldnames}!handle@{handle}|hyperpage}{14}
+\indexentry{handle@{handle}!fields@{fields}|hyperpage}{14}
+\indexentry{fields@{fields}!handle@{handle}|hyperpage}{14}
+\indexentry{handle@{handle}!findobj@{findobj}|hyperpage}{15}
+\indexentry{findobj@{findobj}!handle@{handle}|hyperpage}{15}
+\indexentry{handle@{handle}!findprop@{findprop}|hyperpage}{15}
+\indexentry{findprop@{findprop}!handle@{handle}|hyperpage}{15}
+\indexentry{handle@{handle}!isvalid@{isvalid}|hyperpage}{15}
+\indexentry{isvalid@{isvalid}!handle@{handle}|hyperpage}{15}
+\indexentry{handle@{handle}!notify@{notify}|hyperpage}{15}
+\indexentry{notify@{notify}!handle@{handle}|hyperpage}{15}
+\indexentry{handle@{handle}!permute@{permute}|hyperpage}{15}
+\indexentry{permute@{permute}!handle@{handle}|hyperpage}{15}
+\indexentry{handle@{handle}!reshape@{reshape}|hyperpage}{15}
+\indexentry{reshape@{reshape}!handle@{handle}|hyperpage}{15}
+\indexentry{handle@{handle}!sort@{sort}|hyperpage}{15}
+\indexentry{sort@{sort}!handle@{handle}|hyperpage}{15}
+\indexentry{handle@{handle}!transpose@{transpose}|hyperpage}{15}
+\indexentry{transpose@{transpose}!handle@{handle}|hyperpage}{15}
+\indexentry{integer@{integer}|hyperpage}{16}
+\indexentry{logical@{logical}|hyperpage}{16}
+\indexentry{rowvec@{rowvec}|hyperpage}{16}
+\indexentry{struct@{struct}|hyperpage}{17}
+\indexentry{varargin@{varargin}|hyperpage}{17}
+\indexentry{varargout@{varargout}|hyperpage}{17}
+\indexentry{auxiliar.\discretionary {-}{}{}m@{auxiliar.\discretionary {-}{}{}m}|hyperpage}{19}
+\indexentry{auxiliar.\discretionary {-}{}{}m@{auxiliar.\discretionary {-}{}{}m}!genbasftn@{genbasftn}|hyperpage}{19}
+\indexentry{genbasftn@{genbasftn}!auxiliar.m@{auxiliar.\discretionary {-}{}{}m}|hyperpage}{19}
+\indexentry{Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell.\discretionary {-}{}{}m@{Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell.\discretionary {-}{}{}m}|hyperpage}{19}
+\indexentry{Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell.\discretionary {-}{}{}m@{Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell.\discretionary {-}{}{}m}!Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell@{Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell}|hyperpage}{20}
+\indexentry{Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell@{Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell}!Bases_func_Maxwell.m@{Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell.\discretionary {-}{}{}m}|hyperpage}{20}
+\indexentry{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn.\discretionary {-}{}{}m@{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn.\discretionary {-}{}{}m}|hyperpage}{21}
+\indexentry{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn.\discretionary {-}{}{}m@{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn.\discretionary {-}{}{}m}!carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn@{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn}|hyperpage}{21}
+\indexentry{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn@{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn}!carst_basftn.m@{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn.\discretionary {-}{}{}m}|hyperpage}{21}
+\indexentry{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn.\discretionary {-}{}{}m@{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn.\discretionary {-}{}{}m}!mtoc\discretionary {-}{}{}\_\discretionary {-}{}{}subst\discretionary {-}{}{}\_\discretionary {-}{}{}carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn\discretionary {-}{}{}\_\discretionary {-}{}{}m\discretionary {-}{}{}\_\discretionary {-}{}{}tsbus\discretionary {-}{}{}\_\discretionary {-}{}{}cotm\discretionary {-}{}{}\_\discretionary {-}{}{}test\discretionary {-}{}{}\_\discretionary {-}{}{}line@{mtoc\discretionary {-}{}{}\_\discretionary {-}{}{}subst\discretionary {-}{}{}\_\discretionary {-}{}{}carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn\discretionary {-}{}{}\_\discretionary {-}{}{}m\discretionary {-}{}{}\_\discretionary {-}{}{}tsbus\discretionary {-}{}{}\_\discretionary {-}{}{}cotm\discretionary {-}{}{}\_\discretionary {-}{}{}test\discretionary {-}{}{}\_\discretionary {-}{}{}line}|hyperpage}{21}
+\indexentry{mtoc\discretionary {-}{}{}\_\discretionary {-}{}{}subst\discretionary {-}{}{}\_\discretionary {-}{}{}carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn\discretionary {-}{}{}\_\discretionary {-}{}{}m\discretionary {-}{}{}\_\discretionary {-}{}{}tsbus\discretionary {-}{}{}\_\discretionary {-}{}{}cotm\discretionary {-}{}{}\_\discretionary {-}{}{}test\discretionary {-}{}{}\_\discretionary {-}{}{}line@{mtoc\discretionary {-}{}{}\_\discretionary {-}{}{}subst\discretionary {-}{}{}\_\discretionary {-}{}{}carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn\discretionary {-}{}{}\_\discretionary {-}{}{}m\discretionary {-}{}{}\_\discretionary {-}{}{}tsbus\discretionary {-}{}{}\_\discretionary {-}{}{}cotm\discretionary {-}{}{}\_\discretionary {-}{}{}test\discretionary {-}{}{}\_\discretionary {-}{}{}line}!carst_basftn.m@{carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn.\discretionary {-}{}{}m}|hyperpage}{21}
+\indexentry{class\discretionary {-}{}{}\_\discretionary {-}{}{}substitutes.\discretionary {-}{}{}c@{class\discretionary {-}{}{}\_\discretionary {-}{}{}substitutes.\discretionary {-}{}{}c}|hyperpage}{21}
+\indexentry{developers.\discretionary {-}{}{}c@{developers.\discretionary {-}{}{}c}|hyperpage}{21}
+\indexentry{funciones.\discretionary {-}{}{}m@{funciones.\discretionary {-}{}{}m}|hyperpage}{22}
+\indexentry{funciones.\discretionary {-}{}{}m@{funciones.\discretionary {-}{}{}m}!funciones@{funciones}|hyperpage}{22}
+\indexentry{funciones@{funciones}!funciones.m@{funciones.\discretionary {-}{}{}m}|hyperpage}{22}
+\indexentry{genbasftn.\discretionary {-}{}{}m@{genbasftn.\discretionary {-}{}{}m}|hyperpage}{22}
+\indexentry{genbasftn.\discretionary {-}{}{}m@{genbasftn.\discretionary {-}{}{}m}!genbasftn@{genbasftn}|hyperpage}{22}
+\indexentry{genbasftn@{genbasftn}!genbasftn.m@{genbasftn.\discretionary {-}{}{}m}|hyperpage}{22}
+\indexentry{inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle.\discretionary {-}{}{}m@{inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle.\discretionary {-}{}{}m}|hyperpage}{22}
+\indexentry{inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle.\discretionary {-}{}{}m@{inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle.\discretionary {-}{}{}m}!inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle@{inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle}|hyperpage}{23}
+\indexentry{inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle@{inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle}!inside_triangle.m@{inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle.\discretionary {-}{}{}m}|hyperpage}{23}
+\indexentry{intextnodes.\discretionary {-}{}{}m@{intextnodes.\discretionary {-}{}{}m}|hyperpage}{23}
+\indexentry{intextnodes.\discretionary {-}{}{}m@{intextnodes.\discretionary {-}{}{}m}!intextnodes@{intextnodes}|hyperpage}{24}
+\indexentry{intextnodes@{intextnodes}!intextnodes.m@{intextnodes.\discretionary {-}{}{}m}|hyperpage}{24}
+\indexentry{intextnodes.\discretionary {-}{}{}m@{intextnodes.\discretionary {-}{}{}m}!mtoc\discretionary {-}{}{}\_\discretionary {-}{}{}subst\discretionary {-}{}{}\_\discretionary {-}{}{}intextnodes\discretionary {-}{}{}\_\discretionary {-}{}{}m\discretionary {-}{}{}\_\discretionary {-}{}{}tsbus\discretionary {-}{}{}\_\discretionary {-}{}{}cotm\discretionary {-}{}{}\_\discretionary {-}{}{}inv\discretionary {-}{}{}M@{mtoc\discretionary {-}{}{}\_\discretionary {-}{}{}subst\discretionary {-}{}{}\_\discretionary {-}{}{}intextnodes\discretionary {-}{}{}\_\discretionary {-}{}{}m\discretionary {-}{}{}\_\discretionary {-}{}{}tsbus\discretionary {-}{}{}\_\discretionary {-}{}{}cotm\discretionary {-}{}{}\_\discretionary {-}{}{}inv\discretionary {-}{}{}M}|hyperpage}{24}
+\indexentry{mtoc\discretionary {-}{}{}\_\discretionary {-}{}{}subst\discretionary {-}{}{}\_\discretionary {-}{}{}intextnodes\discretionary {-}{}{}\_\discretionary {-}{}{}m\discretionary {-}{}{}\_\discretionary {-}{}{}tsbus\discretionary {-}{}{}\_\discretionary {-}{}{}cotm\discretionary {-}{}{}\_\discretionary {-}{}{}inv\discretionary {-}{}{}M@{mtoc\discretionary {-}{}{}\_\discretionary {-}{}{}subst\discretionary {-}{}{}\_\discretionary {-}{}{}intextnodes\discretionary {-}{}{}\_\discretionary {-}{}{}m\discretionary {-}{}{}\_\discretionary {-}{}{}tsbus\discretionary {-}{}{}\_\discretionary {-}{}{}cotm\discretionary {-}{}{}\_\discretionary {-}{}{}inv\discretionary {-}{}{}M}!intextnodes.m@{intextnodes.\discretionary {-}{}{}m}|hyperpage}{24}
+\indexentry{main.\discretionary {-}{}{}m@{main.\discretionary {-}{}{}m}|hyperpage}{24}
+\indexentry{main.\discretionary {-}{}{}m@{main.\discretionary {-}{}{}m}!main@{main}|hyperpage}{24}
+\indexentry{main@{main}!main.m@{main.\discretionary {-}{}{}m}|hyperpage}{24}
+\indexentry{malla01.\discretionary {-}{}{}m@{malla01.\discretionary {-}{}{}m}|hyperpage}{25}
+\indexentry{malla01.\discretionary {-}{}{}m@{malla01.\discretionary {-}{}{}m}!malla01@{malla01}|hyperpage}{25}
+\indexentry{malla01@{malla01}!malla01.m@{malla01.\discretionary {-}{}{}m}|hyperpage}{25}
+\indexentry{provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data.\discretionary {-}{}{}m@{provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data.\discretionary {-}{}{}m}|hyperpage}{25}
+\indexentry{provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data.\discretionary {-}{}{}m@{provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data.\discretionary {-}{}{}m}!provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data@{provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data}|hyperpage}{25}
+\indexentry{provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data@{provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data}!provideGeometricData.m@{provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data.\discretionary {-}{}{}m}|hyperpage}{25}
+\indexentry{refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B.\discretionary {-}{}{}m@{refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B.\discretionary {-}{}{}m}|hyperpage}{25}
+\indexentry{refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B.\discretionary {-}{}{}m@{refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B.\discretionary {-}{}{}m}!refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B@{refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B}|hyperpage}{26}
+\indexentry{refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B@{refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B}!refineRGB.m@{refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B.\discretionary {-}{}{}m}|hyperpage}{26}
+\indexentry{shownu.\discretionary {-}{}{}m@{shownu.\discretionary {-}{}{}m}|hyperpage}{26}
+\indexentry{shownu.\discretionary {-}{}{}m@{shownu.\discretionary {-}{}{}m}!shownu@{shownu}|hyperpage}{26}
+\indexentry{shownu@{shownu}!shownu.m@{shownu.\discretionary {-}{}{}m}|hyperpage}{26}

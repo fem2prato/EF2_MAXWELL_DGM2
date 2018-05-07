@@ -1,0 +1,57 @@
+\hypertarget{a00027}{\section{maxwell\-\_\-dgm2.\-m File Reference}
+\label{a00027}\index{maxwell\-\_\-dgm2.\-m@{maxwell\-\_\-dgm2.\-m}}
+}
+
+
+Programa Principal para la aproximación de soluciones de un problema de Eddy current dependiente del tiempo \begin{eqnarray*} \frac{ \partial \bds{E}}{dt} + \curl{\Big ( \alpha \cdot \curl{E}\Big )} &=& f \mbox{ en $\Omega \times (0,T]$}\\ \bds{E} \times \bds{n} &=& g \mbox{ en $\partial \Omega \times (0,T]$}\\ \bds{E} &=& 0 \mbox{ en $ \Omega \times \{0\}$} \end{eqnarray*} en 2\-D utilizando para la discretización en el tiempo polinomios cuadráticos vía D\-G\-M y para la discrezación del espacio elementos de Whitney.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, u $>$ \hyperlink{a00027_aa1c23ee143ed2521278ea8594b5b3e8a}{maxwell\-\_\-dgm2} (matlabtypesubstitute mode, matlabtypesubstitute rhs, matlabtypesubstitute iter)
+\begin{DoxyCompactList}\small\item\em Programa Principal para la aproximación de soluciones de un problema de Eddy current dependiente del tiempo \begin{eqnarray*} \frac{ \partial \bds{E}}{dt} + \curl{\Big ( \alpha \cdot \curl{E}\Big )} &=& f \mbox{ en $\Omega \times (0,T]$}\\ \bds{E} \times \bds{n} &=& g \mbox{ en $\partial \Omega \times (0,T]$}\\ \bds{E} &=& 0 \mbox{ en $ \Omega \times \{0\}$} \end{eqnarray*} en 2\-D utilizando para la discretización en el tiempo polinomios cuadráticos vía D\-G\-M y para la discrezación del espacio elementos de Whitney. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Programa Principal para la aproximación de soluciones de un problema de Eddy current dependiente del tiempo \begin{eqnarray*} \frac{ \partial \bds{E}}{dt} + \curl{\Big ( \alpha \cdot \curl{E}\Big )} &=& f \mbox{ en $\Omega \times (0,T]$}\\ \bds{E} \times \bds{n} &=& g \mbox{ en $\partial \Omega \times (0,T]$}\\ \bds{E} &=& 0 \mbox{ en $ \Omega \times \{0\}$} \end{eqnarray*} en 2\-D utilizando para la discretización en el tiempo polinomios cuadráticos vía D\-G\-M y para la discrezación del espacio elementos de Whitney. 
+
+\subsection{Function Documentation}
+\hypertarget{a00027_aa1c23ee143ed2521278ea8594b5b3e8a}{\index{maxwell\-\_\-dgm2.\-m@{maxwell\-\_\-dgm2.\-m}!maxwell\-\_\-dgm2@{maxwell\-\_\-dgm2}}
+\index{maxwell\-\_\-dgm2@{maxwell\-\_\-dgm2}!maxwell_dgm2.m@{maxwell\-\_\-dgm2.\-m}}
+\subsubsection[{maxwell\-\_\-dgm2}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, u $>$ {\bf maxwell\-\_\-dgm2} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{mode, }
+\item[{matlabtypesubstitute}]{rhs, }
+\item[{matlabtypesubstitute}]{iter}
+\end{DoxyParamCaption}
+)}}\label{a00027_aa1c23ee143ed2521278ea8594b5b3e8a}
+
+
+Programa Principal para la aproximación de soluciones de un problema de Eddy current dependiente del tiempo \begin{eqnarray*} \frac{ \partial \bds{E}}{dt} + \curl{\Big ( \alpha \cdot \curl{E}\Big )} &=& f \mbox{ en $\Omega \times (0,T]$}\\ \bds{E} \times \bds{n} &=& g \mbox{ en $\partial \Omega \times (0,T]$}\\ \bds{E} &=& 0 \mbox{ en $ \Omega \times \{0\}$} \end{eqnarray*} en 2\-D utilizando para la discretización en el tiempo polinomios cuadráticos vía D\-G\-M y para la discrezación del espacio elementos de Whitney. 
+
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+
+Catalina Dominguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/03-\/20
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & Determina las condiciones de frontera que se definen en el archivo malla$\ast$.m \par
+ mode = 1 =$>$ Dirichlet \par
+ mode $>$ 2 =$>$ Neumann o condiciones mixtas \\
+\hline
+{\em rhs} & Id de la función $f$ del lado derecho.\-Se define en el archivo \hyperlink{a00030}{rhs\-\_\-\-Maxw.\-m} \\
+\hline
+{\em iter} & Número de iteraciones\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em u} & Estructura que contiene la información de mallas y solución para cada iteración \\
+\hline
+\end{DoxyRetVals}

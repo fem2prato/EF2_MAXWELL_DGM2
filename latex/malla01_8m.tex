@@ -1,0 +1,64 @@
+\hypertarget{malla01_8m}{\section{malla01.\-m File Reference}
+\label{malla01_8m}\index{malla01.\-m@{malla01.\-m}}
+}
+
+
+Inicializa la geometria $ [0,1] \times [0,1] $ \par
+.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, u $>$ \hyperlink{malla01_8m_ac07ed38a984c8ec43246d07fd453cd8a}{malla01} (matlabtypesubstitute mode)
+\begin{DoxyCompactList}\small\item\em Inicializa la geometria $ [0,1] \times [0,1] $ \par
+. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Inicializa la geometria $ [0,1] \times [0,1] $ \par
+. 
+
+\subsection{Function Documentation}
+\hypertarget{malla01_8m_ac07ed38a984c8ec43246d07fd453cd8a}{\index{malla01.\-m@{malla01.\-m}!malla01@{malla01}}
+\index{malla01@{malla01}!malla01.m@{malla01.\-m}}
+\subsubsection[{malla01}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, u $>$ {\bf malla01} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{mode}
+\end{DoxyParamCaption}
+)}}\label{malla01_8m_ac07ed38a984c8ec43246d07fd453cd8a}
+
+
+Inicializa la geometria $ [0,1] \times [0,1] $ \par
+. 
+
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & Entero. Determina las condiciones de frontera
+\begin{DoxyItemize}
+\item mode=1\-: Dirichlet
+\item mode $>$ 1\-: Condiciones Mixtas o Neumann
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em u} & Estructura que contiene la malla y condiciones de frontera.\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Generated fields of u\-:}
+\begin{DoxyItemize}
+\item {\ttfamily u.\-node~---~} Matriz de orden (No. Puntos) x 2. Contiene las coordenadas de los puntos. \item {\ttfamily u.\-pnod~---~} Matriz de orden (No. Elementos) x 3. Contiene los nodos de cada elemento \item {\ttfamily u.\-numnod~---~} Entero. Número de nodos. \item {\ttfamily u.\-Dirich~---~} Matriz de orden (No. lados Dirichlet) x 2. Contiene los nodos de cada elemento de frontera con condición de Dirichlet. \item {\ttfamily u.\-Neumann~---~} Matriz de orden (No. lados Neumann) x 2. Contiene los nodos de cada elemento de frontera con condición de Neumann. \end{DoxyItemize}
+
+\end{DoxyParagraph}
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+
+Catalina Dominguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/03-\/20 
+\end{DoxyDate}

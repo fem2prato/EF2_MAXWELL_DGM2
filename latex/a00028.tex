@@ -1,0 +1,64 @@
+\hypertarget{a00028}{\section{pt\-\_\-\-J.\-m File Reference}
+\label{a00028}\index{pt\-\_\-\-J.\-m@{pt\-\_\-\-J.\-m}}
+}
+
+
+Define la función independiente del tiempo asociada al lado derecho \[ f(t,\bds{x})=-\partial_t \bds{J}=\sigma \partial_t \bds{E} + \frac{1}{\mu} \curl{\curl{E}} \] al definir $\bds{E} (t,\bds{x})=g(t) \cdot h(\bds{x})$.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+mlhs\-Subst$<$ mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, pt\-J1 $>$\\*
+,mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, pt\-J2 $>$ $>$ \hyperlink{a00028_ab3dcf8377a5fc5a2e5ce23db841507b7}{pt\-\_\-\-J} (matlabtypesubstitute u, matlabtypesubstitute rhs, matlabtypesubstitute xs)
+\begin{DoxyCompactList}\small\item\em Define la función independiente del tiempo asociada al lado derecho \[ f(t,\bds{x})=-\partial_t \bds{J}=\sigma \partial_t \bds{E} + \frac{1}{\mu} \curl{\curl{E}} \] al definir $\bds{E} (t,\bds{x})=g(t) \cdot h(\bds{x})$. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Define la función independiente del tiempo asociada al lado derecho \[ f(t,\bds{x})=-\partial_t \bds{J}=\sigma \partial_t \bds{E} + \frac{1}{\mu} \curl{\curl{E}} \] al definir $\bds{E} (t,\bds{x})=g(t) \cdot h(\bds{x})$. 
+
+\subsection{Function Documentation}
+\hypertarget{a00028_ab3dcf8377a5fc5a2e5ce23db841507b7}{\index{pt\-\_\-\-J.\-m@{pt\-\_\-\-J.\-m}!pt\-\_\-\-J@{pt\-\_\-\-J}}
+\index{pt\-\_\-\-J@{pt\-\_\-\-J}!pt_J.m@{pt\-\_\-\-J.\-m}}
+\subsubsection[{pt\-\_\-\-J}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Subst$<$ mlhs\-Inner\-Subst$<$ matlabtypesubstitute, pt\-J1 $>$,mlhs\-Inner\-Subst$<$ matlabtypesubstitute, pt\-J2 $>$ $>$ {\bf pt\-\_\-\-J} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{rhs, }
+\item[{matlabtypesubstitute}]{xs}
+\end{DoxyParamCaption}
+)}}\label{a00028_ab3dcf8377a5fc5a2e5ce23db841507b7}
+
+
+Define la función independiente del tiempo asociada al lado derecho \[ f(t,\bds{x})=-\partial_t \bds{J}=\sigma \partial_t \bds{E} + \frac{1}{\mu} \curl{\curl{E}} \] al definir $\bds{E} (t,\bds{x})=g(t) \cdot h(\bds{x})$. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em rhs} & Id del lado derecho \\
+\hline
+{\em xs} & Punto\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em pt\-J1} & $ \frac{1}{\mu} \curl{\curl{h(\bds{x})}} $ \\
+\hline
+{\em pt\-J2} & $ \sigma \partial_t {h(\bds{x})} $\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of u\-:}
+\begin{DoxyItemize}
+\item {\ttfamily u~---~} u.\-mumone u.\-sigma \end{DoxyItemize}
+
+\end{DoxyParagraph}
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+
+Catalina Dominguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/03-\/25 
+\end{DoxyDate}

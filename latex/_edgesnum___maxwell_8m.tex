@@ -1,0 +1,84 @@
+\hypertarget{_edgesnum___maxwell_8m}{\section{Edgesnum\-\_\-\-Maxwell.\-m File Reference}
+\label{_edgesnum___maxwell_8m}\index{Edgesnum\-\_\-\-Maxwell.\-m@{Edgesnum\-\_\-\-Maxwell.\-m}}
+}
+
+
+Inicializa la numeración de los lados de la malla provista por malla$\ast$.m y calcula los coeficientes de la funciones bases $ \bds{\phi}_i $ de $ \mathbb{P}_1 $.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, u $>$ \hyperlink{_edgesnum___maxwell_8m_a180f38df86468ad73551f258f9debbfe}{Edgesnum\-\_\-\-Maxwell} (matlabtypesubstitute u)
+\begin{DoxyCompactList}\small\item\em Inicializa la numeración de los lados de la malla provista por malla$\ast$.m y calcula los coeficientes de la funciones bases $ \bds{\phi}_i $ de $ \mathbb{P}_1 $. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Inicializa la numeración de los lados de la malla provista por malla$\ast$.m y calcula los coeficientes de la funciones bases $ \bds{\phi}_i $ de $ \mathbb{P}_1 $. 
+
+\subsection{Function Documentation}
+\hypertarget{_edgesnum___maxwell_8m_a180f38df86468ad73551f258f9debbfe}{\index{Edgesnum\-\_\-\-Maxwell.\-m@{Edgesnum\-\_\-\-Maxwell.\-m}!Edgesnum\-\_\-\-Maxwell@{Edgesnum\-\_\-\-Maxwell}}
+\index{Edgesnum\-\_\-\-Maxwell@{Edgesnum\-\_\-\-Maxwell}!Edgesnum_Maxwell.m@{Edgesnum\-\_\-\-Maxwell.\-m}}
+\subsubsection[{Edgesnum\-\_\-\-Maxwell}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, u $>$ {\bf Edgesnum\-\_\-\-Maxwell} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u}
+\end{DoxyParamCaption}
+)}}\label{_edgesnum___maxwell_8m_a180f38df86468ad73551f258f9debbfe}
+
+
+Inicializa la numeración de los lados de la malla provista por malla$\ast$.m y calcula los coeficientes de la funciones bases $ \bds{\phi}_i $ de $ \mathbb{P}_1 $. 
+
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em u} & Estructura que contiene la malla y condiciones de frontera.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em u} & Estructura que contiene la malla y condiciones de frontera.\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of u\-:}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Generated fields of u\-:}
+\begin{DoxyItemize}
+\item {\ttfamily u.\-intnodes~---~} Matriz de orden (No. lados interiores) x 5. Contiene\-: 
+\begin{DoxyCode}
+ ['Id. nodo1', 'Id. nodo2', 'Id. lado', 'Id. vecino Elem1', 'Id. vecino Elem2' 
+      ]
+\end{DoxyCode}
+ \item {\ttfamily u.\-ed2nod~---~} Matriz de orden (No. lados ) x 2. Contiene\-: 
+\begin{DoxyCode}
+ ['Id. nodo1', 'Id. nodo2']
+\end{DoxyCode}
+ \item {\ttfamily u.\-el2ed~---~} Matriz de orden (No. Elementos ) x 3. Contiene\-: 
+\begin{DoxyCode}
+ ['Id. lado1', 'Id. lado2' 'Id. lado3']
+\end{DoxyCode}
+ \item {\ttfamily u.\-nel~---~} Entero. Número de elementos . \item {\ttfamily u.\-noedges~---~} Entero. Número de lados. \item {\ttfamily u.\-nointedges~---~} Entero. Número de lados interiores. \item {\ttfamily u.\-noextedges~---~} Entero. Número de lados exteriores . \item {\ttfamily u.\-numnod~---~} Entero. Número de nodos. u.\-freek=Matriz de orden (No. lados libres ) x 1. Contiene\-: 
+\begin{DoxyCode}
+ ['Id. lado libre ']
+\end{DoxyCode}
+ u.\-randk=Matriz de orden (No. lados frontera ) x 1. Contiene\-: 
+\begin{DoxyCode}
+ ['Id. lado frontera']
+\end{DoxyCode}
+ \item {\ttfamily u.\-dirichlet~---~} Matriz de orden (No. lados dirichlet -\/ordenados-\/ ) x 2. Contiene\-: 
+\begin{DoxyCode}
+ ['Id. nodo1' 'Id. nodo2']
+\end{DoxyCode}
+ \item {\ttfamily u.\-alfas~---~} Matriz de orden $ 3 \times 3 \times \mbox{u.nel } $. Calcula la matriz \[ \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23}\\ a_{31} & a_{32} & a_{33} \end{pmatrix} \] donde $ \bds{\lambda}_i(x,y) = a_{i1}+a_{(i+1)1}x+a_{(i+1)1}y$, define la i-\/esima coordenadas baricentricas asociadas al elemento. \end{DoxyItemize}
+
+\end{DoxyParagraph}
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+
+Catalina Dominguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/03-\/20 
+\end{DoxyDate}

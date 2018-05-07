@@ -1,0 +1,112 @@
+\hypertarget{a00031}{\section{shownu.\-m File Reference}
+\label{a00031}\index{shownu.\-m@{shownu.\-m}}
+}
+
+
+Grafica la malla, y permite mostrar los elementos, nodos, y lados asociados a la misma.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+noret\-::substitute \hyperlink{a00031_a5a6dfdfa880a93bff6a4798279a0a8e6}{shownu} (matlabtypesubstitute u, matlabtypesubstitute \hyperlink{a00014}{varargin})
+\begin{DoxyCompactList}\small\item\em Grafica la malla, y permite mostrar los elementos, nodos, y lados asociados a la misma. \end{DoxyCompactList}\item 
+mlhs\-Subst$<$ mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, \\*
+numofnod $>$,mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, \\*
+numofel $>$,mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, \\*
+numofed $>$ $>$ \hyperlink{a00031_a7f9f7ccd03613cb0060385a015b085b5}{mtoc\-\_\-subst\-\_\-shownu\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-check} (matlabtypesubstitute \hyperlink{a00014}{varargin})
+\begin{DoxyCompactList}\small\item\em verifica la presencia los argumentos opcionales de la lista \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Grafica la malla, y permite mostrar los elementos, nodos, y lados asociados a la misma. 
+
+\subsection{Function Documentation}
+\hypertarget{a00031_a7f9f7ccd03613cb0060385a015b085b5}{\index{shownu.\-m@{shownu.\-m}!mtoc\-\_\-subst\-\_\-shownu\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-check@{mtoc\-\_\-subst\-\_\-shownu\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-check}}
+\index{mtoc\-\_\-subst\-\_\-shownu\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-check@{mtoc\-\_\-subst\-\_\-shownu\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-check}!shownu.m@{shownu.\-m}}
+\subsubsection[{mtoc\-\_\-subst\-\_\-shownu\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-check}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Subst$<$ mlhs\-Inner\-Subst$<$ matlabtypesubstitute, numofnod $>$,mlhs\-Inner\-Subst$<$ matlabtypesubstitute, numofel $>$,mlhs\-Inner\-Subst$<$ matlabtypesubstitute, numofed $>$ $>$ {\bf mtoc\-\_\-subst\-\_\-shownu\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-check} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{varargin}
+\end{DoxyParamCaption}
+)}}\label{a00031_a7f9f7ccd03613cb0060385a015b085b5}
+
+
+verifica la presencia los argumentos opcionales de la lista 
+
+
+\begin{DoxyCode}
+ ['nodos', 'elementos', 'lados' ] 
+\end{DoxyCode}
+.
+
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/03-\/20
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em varargin} & Alguno o todos los elementos de la lista 
+\begin{DoxyCode}
+ ['elementos', 'nodos', 'lados' ] 
+\end{DoxyCode}
+.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em numofnod} & Si nodos está es igual a 1, en otro caso 0 \\
+\hline
+{\em numofel} & Si elementos está es igual a 1, en otro caso 0 \\
+\hline
+{\em numofed} & Si lados está es igual a 1, en otro caso 0 \\
+\hline
+\end{DoxyRetVals}
+\hypertarget{a00031_a5a6dfdfa880a93bff6a4798279a0a8e6}{\index{shownu.\-m@{shownu.\-m}!shownu@{shownu}}
+\index{shownu@{shownu}!shownu.m@{shownu.\-m}}
+\subsubsection[{shownu}]{\setlength{\rightskip}{0pt plus 5cm}noret\-::substitute {\bf shownu} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{varargin}
+\end{DoxyParamCaption}
+)}}\label{a00031_a5a6dfdfa880a93bff6a4798279a0a8e6}
+
+
+Grafica la malla, y permite mostrar los elementos, nodos, y lados asociados a la misma. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em varargin} & String. Seleccione de la lista 
+\begin{DoxyCode}
+ ['elementos', 'nodos', 'lados' ] 
+\end{DoxyCode}
+.
+\begin{DoxyItemize}
+\item \begin{DoxyVerb}'elementos': ubica la numeración de los elementos \end{DoxyVerb}
+
+\item \begin{DoxyVerb}'nodos' :ubica la numeración de los nodos  \end{DoxyVerb}
+
+\item \begin{DoxyVerb}'lados' : ubica la numeración de los lados  \end{DoxyVerb}
+
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyParagraph}{Required fields of u\-:}
+\begin{DoxyItemize}
+\item {\ttfamily u.\-node~---~} Matriz de orden (No. Puntos) x 2. Contiene las coordenadas de los puntos. \item {\ttfamily u.\-pnod~---~} Matriz de orden (No. Elementos) x 3. Contiene los nodos de cada elemento \item {\ttfamily u.\-numnod~---~} Entero. Número de nodos. \item {\ttfamily u.\-ed2nod~---~} Matriz de orden (No. lados) x 2. Contiene nodos globales asociados a cada lado. \end{DoxyItemize}
+
+\end{DoxyParagraph}
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+
+Catalina Dominguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/05-\/02 
+\end{DoxyDate}

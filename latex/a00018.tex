@@ -1,0 +1,122 @@
+\hypertarget{a00018}{\section{dirichlet\-\_\-int.\-m File Reference}
+\label{a00018}\index{dirichlet\-\_\-int.\-m@{dirichlet\-\_\-int.\-m}}
+}
+
+
+Calcula la integral total de frontera para problemas no homogeneos \[ \int_{ \partial \Omega} \, n \times \curl{\bds{u}} \cdot \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D)  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, F\-T $>$ \hyperlink{a00018_a9621b6ebc3bb5bf12c40441f3ac49296}{dirichlet\-\_\-int} (matlabtypesubstitute u, matlabtypesubstitute rhs, matlabtypesubstitute Z)
+\begin{DoxyCompactList}\small\item\em Calcula la integral total de frontera para problemas no homogeneos \[ \int_{ \partial \Omega} \, n \times \curl{\bds{u}} \cdot \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) \end{DoxyCompactList}\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, F $>$ \hyperlink{a00018_a7cf2e1a404469b4ff7462d92a66e67b0}{mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-int\-\_\-lado} (matlabtypesubstitute u, matlabtypesubstitute k, matlabtypesubstitute j, matlabtypesubstitute rhs, matlabtypesubstitute Z)
+\begin{DoxyCompactList}\small\item\em Calcula la integral de frontera para problemas no homogeneos \[ \int_{\Gamma_k}\, n \times f(x) \bds{\phi}_j \, \mathrm{d}x \] sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) \end{DoxyCompactList}\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, Es $>$ \hyperlink{a00018_a90097a853874acfe2f32c2a6816c75ff}{mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-ncurl\-\_\-u} (matlabtypesubstitute xs, matlabtypesubstitute n, matlabtypesubstitute rhs)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calcula la integral total de frontera para problemas no homogeneos \[ \int_{ \partial \Omega} \, n \times \curl{\bds{u}} \cdot \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) 
+
+\subsection{Function Documentation}
+\hypertarget{a00018_a9621b6ebc3bb5bf12c40441f3ac49296}{\index{dirichlet\-\_\-int.\-m@{dirichlet\-\_\-int.\-m}!dirichlet\-\_\-int@{dirichlet\-\_\-int}}
+\index{dirichlet\-\_\-int@{dirichlet\-\_\-int}!dirichlet_int.m@{dirichlet\-\_\-int.\-m}}
+\subsubsection[{dirichlet\-\_\-int}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, F\-T $>$ {\bf dirichlet\-\_\-int} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{rhs, }
+\item[{matlabtypesubstitute}]{Z}
+\end{DoxyParamCaption}
+)}}\label{a00018_a9621b6ebc3bb5bf12c40441f3ac49296}
+
+
+Calcula la integral total de frontera para problemas no homogeneos \[ \int_{ \partial \Omega} \, n \times \curl{\bds{u}} \cdot \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) 
+
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+
+Catalina Dominguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/04-\/25
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em rhs} & Id. del lado derecho \\
+\hline
+{\em Z} & Estructura para el tiempo\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em F\-T} & F\-T \\
+\hline
+{\em F} & Matriz. Lado derecho\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of u\-:}
+
+\end{DoxyParagraph}
+\hypertarget{a00018_a7cf2e1a404469b4ff7462d92a66e67b0}{\index{dirichlet\-\_\-int.\-m@{dirichlet\-\_\-int.\-m}!mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-int\-\_\-lado@{mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-int\-\_\-lado}}
+\index{mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-int\-\_\-lado@{mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-int\-\_\-lado}!dirichlet_int.m@{dirichlet\-\_\-int.\-m}}
+\subsubsection[{mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-int\-\_\-lado}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, F $>$ {\bf mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-int\-\_\-lado} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{k, }
+\item[{matlabtypesubstitute}]{j, }
+\item[{matlabtypesubstitute}]{rhs, }
+\item[{matlabtypesubstitute}]{Z}
+\end{DoxyParamCaption}
+)}}\label{a00018_a7cf2e1a404469b4ff7462d92a66e67b0}
+
+
+Calcula la integral de frontera para problemas no homogeneos \[ \int_{\Gamma_k}\, n \times f(x) \bds{\phi}_j \, \mathrm{d}x \] sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) 
+
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+
+Catalina Dominguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/04-\/25
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em k} & Id del elemento de frontera \\
+\hline
+{\em j} & Id del elemento de frontera \\
+\hline
+{\em rhs} & Id. del lado derecho \\
+\hline
+{\em Z} & Estructura. Información del tiempo.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em F} & Matriz. Lado derecho\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of Z\-:}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Required fields of u\-:}
+
+\end{DoxyParagraph}
+\hypertarget{a00018_a90097a853874acfe2f32c2a6816c75ff}{\index{dirichlet\-\_\-int.\-m@{dirichlet\-\_\-int.\-m}!mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-ncurl\-\_\-u@{mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-ncurl\-\_\-u}}
+\index{mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-ncurl\-\_\-u@{mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-ncurl\-\_\-u}!dirichlet_int.m@{dirichlet\-\_\-int.\-m}}
+\subsubsection[{mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-ncurl\-\_\-u}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$matlabtypesubstitute,Es$>$ {\bf mtoc\-\_\-subst\-\_\-dirichlet\-\_\-int\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-ncurl\-\_\-u} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{xs, }
+\item[{matlabtypesubstitute}]{n, }
+\item[{matlabtypesubstitute}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{a00018_a90097a853874acfe2f32c2a6816c75ff}

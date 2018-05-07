@@ -1,0 +1,114 @@
+\hypertarget{a00019}{\section{E\-\_\-error3.\-m File Reference}
+\label{a00019}\index{E\-\_\-error3.\-m@{E\-\_\-error3.\-m}}
+}
+
+
+Calcula el error (en caso de tener solución exacta) \[ \Vert E-E_h \Vert_{H(curl,\Omega)} \].  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, err $>$ \hyperlink{a00019_a29de8f298869566020d8775a9b41b8c4}{E\-\_\-error3} (matlabtypesubstitute u, matlabtypesubstitute Z, matlabtypesubstitute xh, matlabtypesubstitute rhs)
+\begin{DoxyCompactList}\small\item\em Calcula el error (en caso de tener solución exacta) \[ \Vert E-E_h \Vert_{H(curl,\Omega)} \]. \end{DoxyCompactList}\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, saa $>$ \hyperlink{a00019_a97545bbb7f20a11107225170ca296c3b}{mtoc\-\_\-subst\-\_\-\-E\-\_\-error3\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-checkwhitney} (matlabtypesubstitute u, matlabtypesubstitute k, matlabtypesubstitute ld, matlabtypesubstitute id, matlabtypesubstitute rhs, matlabtypesubstitute tk)
+\begin{DoxyCompactList}\small\item\em Determina el Id. del lado al que esta asociado la función de Whitney. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calcula el error (en caso de tener solución exacta) \[ \Vert E-E_h \Vert_{H(curl,\Omega)} \]. 
+
+\subsection{Function Documentation}
+\hypertarget{a00019_a29de8f298869566020d8775a9b41b8c4}{\index{E\-\_\-error3.\-m@{E\-\_\-error3.\-m}!E\-\_\-error3@{E\-\_\-error3}}
+\index{E\-\_\-error3@{E\-\_\-error3}!E_error3.m@{E\-\_\-error3.\-m}}
+\subsubsection[{E\-\_\-error3}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, err $>$ {\bf E\-\_\-error3} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{Z, }
+\item[{matlabtypesubstitute}]{xh, }
+\item[{matlabtypesubstitute}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{a00019_a29de8f298869566020d8775a9b41b8c4}
+
+
+Calcula el error (en caso de tener solución exacta) \[ \Vert E-E_h \Vert_{H(curl,\Omega)} \]. 
+
+sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D)
+
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+
+Catalina Dominguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/03-\/30
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em Z} & Estructura para el tiempo \\
+\hline
+{\em xh} & Solución aproximada \\
+\hline
+{\em rhs} & Id. de la solución exacta\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em err} & Matriz. Error\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of Z\-:}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Required fields of u\-:}
+
+\end{DoxyParagraph}
+\hypertarget{a00019_a97545bbb7f20a11107225170ca296c3b}{\index{E\-\_\-error3.\-m@{E\-\_\-error3.\-m}!mtoc\-\_\-subst\-\_\-\-E\-\_\-error3\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-checkwhitney@{mtoc\-\_\-subst\-\_\-\-E\-\_\-error3\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-checkwhitney}}
+\index{mtoc\-\_\-subst\-\_\-\-E\-\_\-error3\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-checkwhitney@{mtoc\-\_\-subst\-\_\-\-E\-\_\-error3\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-checkwhitney}!E_error3.m@{E\-\_\-error3.\-m}}
+\subsubsection[{mtoc\-\_\-subst\-\_\-\-E\-\_\-error3\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-checkwhitney}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, saa $>$ {\bf mtoc\-\_\-subst\-\_\-\-E\-\_\-error3\-\_\-m\-\_\-tsbus\-\_\-cotm\-\_\-checkwhitney} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{u, }
+\item[{matlabtypesubstitute}]{k, }
+\item[{matlabtypesubstitute}]{ld, }
+\item[{matlabtypesubstitute}]{id, }
+\item[{matlabtypesubstitute}]{rhs, }
+\item[{matlabtypesubstitute}]{tk}
+\end{DoxyParamCaption}
+)}}\label{a00019_a97545bbb7f20a11107225170ca296c3b}
+
+
+Determina el Id. del lado al que esta asociado la función de Whitney. 
+
+\begin{DoxyAuthor}{Author}
+Ricardo Prato 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012-\/04-\/25
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em u} & {\bfseries Estructura} \\
+\hline
+{\em k} & Id. del elemento \\
+\hline
+{\em ld} & Id. del lado \\
+\hline
+{\em id} & numero de co \\
+\hline
+{\em rhs} & Id. de la solución exacta \\
+\hline
+{\em tk} & Tiempo\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em saa} & Relacion lado-\/función\\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyParagraph}{Required fields of u\-:}
+
+\end{DoxyParagraph}

@@ -1,0 +1,27 @@
+\section{File List}
+Here is a list of all files with brief descriptions\-:\begin{DoxyCompactList}
+\item\contentsline{section}{\hyperlink{a00016}{class\-\_\-substitutes.\-c} }{\pageref{a00016}}{}
+\item\contentsline{section}{\hyperlink{a00017}{developers.\-c} }{\pageref{a00017}}{}
+\item\contentsline{section}{\hyperlink{a00018}{dirichlet\-\_\-int.\-m} \\*Calcula la integral total de frontera para problemas no homogeneos \[ \int_{ \partial \Omega} \, n \times \curl{\bds{u}} \cdot \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) }{\pageref{a00018}}{}
+\item\contentsline{section}{\hyperlink{a00019}{E\-\_\-error3.\-m} \\*Calcula el error (en caso de tener solución exacta) \[ \Vert E-E_h \Vert_{H(curl,\Omega)} \] }{\pageref{a00019}}{}
+\item\contentsline{section}{\hyperlink{a00020}{Ece.\-m} \\*Calcula el valor de la función exacta (dada en rhs) en el punto xs }{\pageref{a00020}}{}
+\item\contentsline{section}{\hyperlink{a00021}{Edgesnum\-\_\-\-Maxwell.\-m} \\*Inicializa la numeración de los lados de la malla provista por malla$\ast$.m y calcula los coeficientes de la funciones bases $ \bds{\phi}_i $ de $ \mathbb{P}_1 $ }{\pageref{a00021}}{}
+\item\contentsline{section}{\hyperlink{a00022}{funciones.\-m} \\*String de la función exacta utilizada. Por ejemplo, }{\pageref{a00022}}{}
+\item\contentsline{section}{\hyperlink{a00023}{gauss.\-m} \\*Genera los puntos $ x_i $ y los pesos $ w_i $ para una cuadratura Gauss-\/\-Legendre \[ \int_{a}^b W(x) \cdot f(t) dt \approx \sum_{i=1}^{n} w_i \, f(x_i) \] siguiendo lo propuesto en la sección 4.\-6 de \par
+ Numerical Recipes\-: The Art of Scientific Computing \par
+ Third Edition (2007) \par
+ Cambridge University Press \par
+ I\-S\-B\-N-\/10\-: 0521880688 }{\pageref{a00023}}{}
+\item\contentsline{section}{\hyperlink{a00024}{int\-\_\-time.\-m} \\*Calcula el valor de las integrales \begin{eqnarray*} I_1 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_2 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_3 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_4 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_5 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g(t) \, dt &\qquad& I_6 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g^{\prime}(t) \, dt \ \end{eqnarray*} }{\pageref{a00024}}{}
+\item\contentsline{section}{\hyperlink{a00025}{malla01.\-m} \\*Inicializa la geometria $ [0,1] \times [0,1] $ \par
+ }{\pageref{a00025}}{}
+\item\contentsline{section}{\hyperlink{a00026}{malla02.\-m} \\*Inicializa la geometria $ [-1,1] \times [-1,1] $ \par
+ }{\pageref{a00026}}{}
+\item\contentsline{section}{\hyperlink{a00027}{maxwell\-\_\-dgm2.\-m} \\*Programa Principal para la aproximación de soluciones de un problema de Eddy current dependiente del tiempo \begin{eqnarray*} \frac{ \partial \bds{E}}{dt} + \curl{\Big ( \alpha \cdot \curl{E}\Big )} &=& f \mbox{ en $\Omega \times (0,T]$}\\ \bds{E} \times \bds{n} &=& g \mbox{ en $\partial \Omega \times (0,T]$}\\ \bds{E} &=& 0 \mbox{ en $ \Omega \times \{0\}$} \end{eqnarray*} en 2\-D utilizando para la discretización en el tiempo polinomios cuadráticos vía D\-G\-M y para la discrezación del espacio elementos de Whitney }{\pageref{a00027}}{}
+\item\contentsline{section}{\hyperlink{a00028}{pt\-\_\-\-J.\-m} \\*Define la función independiente del tiempo asociada al lado derecho \[ f(t,\bds{x})=-\partial_t \bds{J}=\sigma \partial_t \bds{E} + \frac{1}{\mu} \curl{\curl{E}} \] al definir $\bds{E} (t,\bds{x})=g(t) \cdot h(\bds{x})$ }{\pageref{a00028}}{}
+\item\contentsline{section}{\hyperlink{a00029}{refine\-R\-G\-B.\-m} \\*Refina la malla provista por malla$\ast$.m utilizando un esquema red-\/green }{\pageref{a00029}}{}
+\item\contentsline{section}{\hyperlink{a00030}{rhs\-\_\-\-Maxw.\-m} \\*Acopla la matriz de lado derecho local \[ \int_{\Omega}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) }{\pageref{a00030}}{}
+\item\contentsline{section}{\hyperlink{a00031}{shownu.\-m} \\*Grafica la malla, y permite mostrar los elementos, nodos, y lados asociados a la misma }{\pageref{a00031}}{}
+\item\contentsline{section}{\hyperlink{a00032}{Stiff\-\_\-\-Maxwell.\-m} \\*Calcula la matriz de rigidez local $ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2\-D) }{\pageref{a00032}}{}
+\item\contentsline{section}{\hyperlink{a00033}{Whitney\-\_\-func\-\_\-\-Maxwell.\-m} \\*Calcula el valor en el punto $ \bds{x}$ de la función base $\bds{\phi}^i$ (elementos de Whitney 2\-D) definido por \[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \] donde $ co=[k,\, j] $ }{\pageref{a00033}}{}
+\end{DoxyCompactList}

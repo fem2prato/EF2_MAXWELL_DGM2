@@ -1,0 +1,65 @@
+\hypertarget{inside__triangle_8m}{\section{inside\-\_\-triangle.\-m File Reference}
+\label{inside__triangle_8m}\index{inside\-\_\-triangle.\-m@{inside\-\_\-triangle.\-m}}
+}
+
+
+inside\-\_\-triangle is used to check if a point P is inside the triangle P1\-P2\-P3 or not.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+mlhs\-Inner\-Subst\\*
+$<$ matlabtypesubstitute, True $>$ \hyperlink{inside__triangle_8m_a3cd054bdd41bee0cf4168c190d8d3730}{inside\-\_\-triangle} (matlabtypesubstitute P, matlabtypesubstitute P1, matlabtypesubstitute P2, matlabtypesubstitute P3)
+\begin{DoxyCompactList}\small\item\em inside\-\_\-triangle is used to check if a point P is inside the triangle P1\-P2\-P3 or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+inside\-\_\-triangle is used to check if a point P is inside the triangle P1\-P2\-P3 or not. 
+
+\subsection{Function Documentation}
+\hypertarget{inside__triangle_8m_a3cd054bdd41bee0cf4168c190d8d3730}{\index{inside\-\_\-triangle.\-m@{inside\-\_\-triangle.\-m}!inside\-\_\-triangle@{inside\-\_\-triangle}}
+\index{inside\-\_\-triangle@{inside\-\_\-triangle}!inside_triangle.m@{inside\-\_\-triangle.\-m}}
+\subsubsection[{inside\-\_\-triangle}]{\setlength{\rightskip}{0pt plus 5cm}mlhs\-Inner\-Subst$<$ matlabtypesubstitute, True $>$ {\bf inside\-\_\-triangle} (
+\begin{DoxyParamCaption}
+\item[{matlabtypesubstitute}]{P, }
+\item[{matlabtypesubstitute}]{P1, }
+\item[{matlabtypesubstitute}]{P2, }
+\item[{matlabtypesubstitute}]{P3}
+\end{DoxyParamCaption}
+)}}\label{inside__triangle_8m_a3cd054bdd41bee0cf4168c190d8d3730}
+
+
+inside\-\_\-triangle is used to check if a point P is inside the triangle P1\-P2\-P3 or not. 
+
+Inputs\-: P, P1, P2 and P3 are vectors of length 2 or three of the form \mbox{[}x y z\mbox{]} or \mbox{[}x y\mbox{]}
+
+Output\-: True True=1 =$>$ P is on or inside P1\-P2\-P3 True=0 =$>$ P is outside P1\-P2\-P3
+
+\begin{DoxyParagraph}{Example}
+True=inside\-\_\-triangle(\mbox{[}0.\-5 0.\-5\mbox{]},\mbox{[}0 0\mbox{]},\mbox{[}0 2\mbox{]},\mbox{[}2 0\mbox{]});
+\end{DoxyParagraph}
+The following algorithm is implemented If P is O\-N or I\-N\-S\-I\-D\-E the triangle \begin{DoxyVerb} Area(PP1P2) + Area(PP2P3) + Area(PP3P1) = Area(P1P2P3)\end{DoxyVerb}
+ If P is O\-U\-T\-S\-I\-D\-E then, \begin{DoxyVerb} Area(PP1P2) + Area(PP2P3) + Area(PP3P1) > Area(P1P2P3)\end{DoxyVerb}
+ \begin{DoxyParagraph}{Area of a triangle can be found using the determinant}
+\begin{DoxyVerb}  Area = abs(1/2 * |x1  y1  1| )
+                            |x2  y2  1|
+                            |x3  y3  1|\end{DoxyVerb}
+ 
+\end{DoxyParagraph}
+
+\begin{DoxyParams}{Parameters}
+{\em P} & P \\
+\hline
+{\em P1} & P1 \\
+\hline
+{\em P2} & P2 \\
+\hline
+{\em P3} & P3\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em True} & True \\
+\hline
+\end{DoxyRetVals}

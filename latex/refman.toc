@@ -1,0 +1,96 @@
+\contentsline {chapter}{\numberline {1}Desarrolladores E\discretionary {-}{}{}F2}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Ricardo Prato}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Catalina Dominguez}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Changes in E\discretionary {-}{}{}F2\discretionary {-}{}{}:Peers\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}El Version 1.1}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Class Hierarchy}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Index}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Class List}{7}{section.4.1}
+\contentsline {chapter}{\numberline {5}File Index}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}File List}{9}{section.5.1}
+\contentsline {chapter}{\numberline {6}Class Documentation}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}cell Class Reference}{11}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{11}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}char Class Reference}{11}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{11}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}colvec Class Reference}{12}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{12}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}double Class Reference}{12}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{12}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}function\discretionary {-}{}{}\_\discretionary {-}{}{}handle Class Reference}{12}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{12}{subsection.6.5.1}
+\contentsline {section}{\numberline {6.6}handle Class Reference}{13}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{13}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Member Data Documentation}{14}{subsection.6.6.2}
+\contentsline {subsubsection}{\numberline {6.6.2.1}addlistener}{14}{subsubsection.6.6.2.1}
+\contentsline {subsubsection}{\numberline {6.6.2.2}delete}{14}{subsubsection.6.6.2.2}
+\contentsline {subsubsection}{\numberline {6.6.2.3}disp}{14}{subsubsection.6.6.2.3}
+\contentsline {subsubsection}{\numberline {6.6.2.4}display}{14}{subsubsection.6.6.2.4}
+\contentsline {subsubsection}{\numberline {6.6.2.5}eq}{14}{subsubsection.6.6.2.5}
+\contentsline {subsubsection}{\numberline {6.6.2.6}fieldnames}{14}{subsubsection.6.6.2.6}
+\contentsline {subsubsection}{\numberline {6.6.2.7}fields}{15}{subsubsection.6.6.2.7}
+\contentsline {subsubsection}{\numberline {6.6.2.8}findobj}{15}{subsubsection.6.6.2.8}
+\contentsline {subsubsection}{\numberline {6.6.2.9}findprop}{15}{subsubsection.6.6.2.9}
+\contentsline {subsubsection}{\numberline {6.6.2.10}isvalid}{15}{subsubsection.6.6.2.10}
+\contentsline {subsubsection}{\numberline {6.6.2.11}notify}{15}{subsubsection.6.6.2.11}
+\contentsline {subsubsection}{\numberline {6.6.2.12}permute}{15}{subsubsection.6.6.2.12}
+\contentsline {subsubsection}{\numberline {6.6.2.13}reshape}{15}{subsubsection.6.6.2.13}
+\contentsline {subsubsection}{\numberline {6.6.2.14}sort}{15}{subsubsection.6.6.2.14}
+\contentsline {subsubsection}{\numberline {6.6.2.15}transpose}{15}{subsubsection.6.6.2.15}
+\contentsline {section}{\numberline {6.7}integer Class Reference}{16}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{16}{subsection.6.7.1}
+\contentsline {section}{\numberline {6.8}logical Class Reference}{16}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{16}{subsection.6.8.1}
+\contentsline {section}{\numberline {6.9}rowvec Class Reference}{16}{section.6.9}
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{17}{subsection.6.9.1}
+\contentsline {section}{\numberline {6.10}struct Class Reference}{17}{section.6.10}
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{17}{subsection.6.10.1}
+\contentsline {section}{\numberline {6.11}varargin Class Reference}{17}{section.6.11}
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{17}{subsection.6.11.1}
+\contentsline {section}{\numberline {6.12}varargout Class Reference}{17}{section.6.12}
+\contentsline {subsection}{\numberline {6.12.1}Detailed Description}{18}{subsection.6.12.1}
+\contentsline {chapter}{\numberline {7}File Documentation}{19}{chapter.7}
+\contentsline {section}{\numberline {7.1}auxiliar.\discretionary {-}{}{}m File Reference}{19}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Function Documentation}{19}{subsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1.1}genbasftn}{19}{subsubsection.7.1.1.1}
+\contentsline {section}{\numberline {7.2}Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell.\discretionary {-}{}{}m File Reference}{19}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Detailed Description}{20}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Function Documentation}{20}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}Bases\discretionary {-}{}{}\_\discretionary {-}{}{}func\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Maxwell}{20}{subsubsection.7.2.2.1}
+\contentsline {section}{\numberline {7.3}carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn.\discretionary {-}{}{}m File Reference}{21}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Function Documentation}{21}{subsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.1.1}carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn}{21}{subsubsection.7.3.1.1}
+\contentsline {subsubsection}{\numberline {7.3.1.2}mtoc\discretionary {-}{}{}\_\discretionary {-}{}{}subst\discretionary {-}{}{}\_\discretionary {-}{}{}carst\discretionary {-}{}{}\_\discretionary {-}{}{}basftn\discretionary {-}{}{}\_\discretionary {-}{}{}m\discretionary {-}{}{}\_\discretionary {-}{}{}tsbus\discretionary {-}{}{}\_\discretionary {-}{}{}cotm\discretionary {-}{}{}\_\discretionary {-}{}{}test\discretionary {-}{}{}\_\discretionary {-}{}{}line}{21}{subsubsection.7.3.1.2}
+\contentsline {section}{\numberline {7.4}class\discretionary {-}{}{}\_\discretionary {-}{}{}substitutes.\discretionary {-}{}{}c File Reference}{21}{section.7.4}
+\contentsline {section}{\numberline {7.5}developers.\discretionary {-}{}{}c File Reference}{21}{section.7.5}
+\contentsline {section}{\numberline {7.6}funciones.\discretionary {-}{}{}m File Reference}{22}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Function Documentation}{22}{subsection.7.6.1}
+\contentsline {subsubsection}{\numberline {7.6.1.1}funciones}{22}{subsubsection.7.6.1.1}
+\contentsline {section}{\numberline {7.7}genbasftn.\discretionary {-}{}{}m File Reference}{22}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Function Documentation}{22}{subsection.7.7.1}
+\contentsline {subsubsection}{\numberline {7.7.1.1}genbasftn}{22}{subsubsection.7.7.1.1}
+\contentsline {section}{\numberline {7.8}inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle.\discretionary {-}{}{}m File Reference}{22}{section.7.8}
+\contentsline {subsection}{\numberline {7.8.1}Detailed Description}{22}{subsection.7.8.1}
+\contentsline {subsection}{\numberline {7.8.2}Function Documentation}{23}{subsection.7.8.2}
+\contentsline {subsubsection}{\numberline {7.8.2.1}inside\discretionary {-}{}{}\_\discretionary {-}{}{}triangle}{23}{subsubsection.7.8.2.1}
+\contentsline {section}{\numberline {7.9}intextnodes.\discretionary {-}{}{}m File Reference}{23}{section.7.9}
+\contentsline {subsection}{\numberline {7.9.1}Function Documentation}{24}{subsection.7.9.1}
+\contentsline {subsubsection}{\numberline {7.9.1.1}intextnodes}{24}{subsubsection.7.9.1.1}
+\contentsline {subsubsection}{\numberline {7.9.1.2}mtoc\discretionary {-}{}{}\_\discretionary {-}{}{}subst\discretionary {-}{}{}\_\discretionary {-}{}{}intextnodes\discretionary {-}{}{}\_\discretionary {-}{}{}m\discretionary {-}{}{}\_\discretionary {-}{}{}tsbus\discretionary {-}{}{}\_\discretionary {-}{}{}cotm\discretionary {-}{}{}\_\discretionary {-}{}{}inv\discretionary {-}{}{}M}{24}{subsubsection.7.9.1.2}
+\contentsline {section}{\numberline {7.10}main.\discretionary {-}{}{}m File Reference}{24}{section.7.10}
+\contentsline {subsection}{\numberline {7.10.1}Detailed Description}{24}{subsection.7.10.1}
+\contentsline {subsection}{\numberline {7.10.2}Function Documentation}{24}{subsection.7.10.2}
+\contentsline {subsubsection}{\numberline {7.10.2.1}main}{24}{subsubsection.7.10.2.1}
+\contentsline {section}{\numberline {7.11}malla01.\discretionary {-}{}{}m File Reference}{25}{section.7.11}
+\contentsline {subsection}{\numberline {7.11.1}Function Documentation}{25}{subsection.7.11.1}
+\contentsline {subsubsection}{\numberline {7.11.1.1}malla01}{25}{subsubsection.7.11.1.1}
+\contentsline {section}{\numberline {7.12}provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data.\discretionary {-}{}{}m File Reference}{25}{section.7.12}
+\contentsline {subsection}{\numberline {7.12.1}Function Documentation}{25}{subsection.7.12.1}
+\contentsline {subsubsection}{\numberline {7.12.1.1}provide\discretionary {-}{}{}Geometric\discretionary {-}{}{}Data}{25}{subsubsection.7.12.1.1}
+\contentsline {section}{\numberline {7.13}refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B.\discretionary {-}{}{}m File Reference}{25}{section.7.13}
+\contentsline {subsection}{\numberline {7.13.1}Detailed Description}{26}{subsection.7.13.1}
+\contentsline {subsection}{\numberline {7.13.2}Function Documentation}{26}{subsection.7.13.2}
+\contentsline {subsubsection}{\numberline {7.13.2.1}refine\discretionary {-}{}{}R\discretionary {-}{}{}G\discretionary {-}{}{}B}{26}{subsubsection.7.13.2.1}
+\contentsline {section}{\numberline {7.14}shownu.\discretionary {-}{}{}m File Reference}{26}{section.7.14}
+\contentsline {subsection}{\numberline {7.14.1}Function Documentation}{26}{subsection.7.14.1}
+\contentsline {subsubsection}{\numberline {7.14.1.1}shownu}{27}{subsubsection.7.14.1.1}
