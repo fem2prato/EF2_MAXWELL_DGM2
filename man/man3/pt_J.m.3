@@ -1,0 +1,77 @@
+.TH "pt_J.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+pt_J.m \- 
+.PP
+Define la función independiente del tiempo asociada al lado derecho \[ f(t,\bds{x})=-\partial_t \bds{J}=\sigma \partial_t \bds{E} + \frac{1}{\mu} \curl{\curl{E}} \] al definir $\bds{E} (t,\bds{x})=g(t) \cdot h(\bds{x})$\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsSubst< mlhsInnerSubst
+.br
+< matlabtypesubstitute, ptJ1 >
+.br
+,mlhsInnerSubst
+.br
+< matlabtypesubstitute, ptJ2 > > \fBpt_J\fP (matlabtypesubstitute u, matlabtypesubstitute rhs, matlabtypesubstitute xs)"
+.br
+.RI "\fIDefine la función independiente del tiempo asociada al lado derecho \[ f(t,\bds{x})=-\partial_t \bds{J}=\sigma \partial_t \bds{E} + \frac{1}{\mu} \curl{\curl{E}} \] al definir $\bds{E} (t,\bds{x})=g(t) \cdot h(\bds{x})$\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Define la función independiente del tiempo asociada al lado derecho \[ f(t,\bds{x})=-\partial_t \bds{J}=\sigma \partial_t \bds{E} + \frac{1}{\mu} \curl{\curl{E}} \] al definir $\bds{E} (t,\bds{x})=g(t) \cdot h(\bds{x})$\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsSubst< mlhsInnerSubst< matlabtypesubstitute, ptJ1 >,mlhsInnerSubst< matlabtypesubstitute, ptJ2 > > \fBpt_J\fP (matlabtypesubstituteu, matlabtypesubstituterhs, matlabtypesubstitutexs)"
+
+.PP
+Define la función independiente del tiempo asociada al lado derecho \[ f(t,\bds{x})=-\partial_t \bds{J}=\sigma \partial_t \bds{E} + \frac{1}{\mu} \curl{\curl{E}} \] al definir $\bds{E} (t,\bds{x})=g(t) \cdot h(\bds{x})$\&. \fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIrhs\fP Id del lado derecho 
+.br
+\fIxs\fP Punto
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIptJ1\fP $ \frac{1}{\mu} \curl{\curl{h(\bds{x})}} $ 
+.br
+\fIptJ2\fP $ \sigma \partial_t {h(\bds{x})} $
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.PD 0
+
+.IP "\(bu" 2
+\fCu --- \fP u\&.mumone u\&.sigma 
+.PP
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-25 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

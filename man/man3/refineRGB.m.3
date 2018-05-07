@@ -1,0 +1,107 @@
+.TH "refineRGB.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+refineRGB.m \- 
+.PP
+Refina la malla provista por malla*\&.m utilizando un esquema red-green\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsSubst< mlhsInnerSubst
+.br
+< matlabtypesubstitute, 
+.br
+coordenadas >,mlhsInnerSubst
+.br
+< matlabtypesubstitute, 
+.br
+newElements >,mlhsInnerSubst
+.br
+< matlabtypesubstitute, 
+.br
+\fBvarargout\fP > > \fBrefineRGB\fP (matlabtypesubstitute coordenadas, matlabtypesubstitute elements, matlabtypesubstitute \fBvarargin\fP)"
+.br
+.RI "\fIRefina la malla provista por malla*\&.m utilizando un esquema red-green\&. \fP"
+.ti -1c
+.RI "mlhsSubst< mlhsInnerSubst
+.br
+< matlabtypesubstitute, 
+.br
+edge2nodes >,mlhsInnerSubst
+.br
+< matlabtypesubstitute, 
+.br
+element2edges >,mlhsInnerSubst
+.br
+< matlabtypesubstitute, 
+.br
+\fBvarargout\fP > > \fBmtoc_subst_refineRGB_m_tsbus_cotm_Geometria\fP (matlabtypesubstitute elements, matlabtypesubstitute \fBvarargin\fP)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Refina la malla provista por malla*\&.m utilizando un esquema red-green\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsSubst<mlhsInnerSubst<matlabtypesubstitute,edge2nodes> ,mlhsInnerSubst<matlabtypesubstitute,element2edges> ,mlhsInnerSubst<matlabtypesubstitute,\fBvarargout\fP> > \fBmtoc_subst_refineRGB_m_tsbus_cotm_Geometria\fP (matlabtypesubstituteelements, matlabtypesubstitutevarargin)"
+
+.SS "mlhsSubst< mlhsInnerSubst< matlabtypesubstitute, coordenadas >,mlhsInnerSubst< matlabtypesubstitute, newElements >,mlhsInnerSubst< matlabtypesubstitute, \fBvarargout\fP > > \fBrefineRGB\fP (matlabtypesubstitutecoordenadas, matlabtypesubstituteelements, matlabtypesubstitutevarargin)"
+
+.PP
+Refina la malla provista por malla*\&.m utilizando un esquema red-green\&. .PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2011-08-17
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcoordenadas\fP Matriz definida por u\&.node 
+.br
+\fIelements\fP Matriz definida por u\&.pnod 
+.br
+\fIvarargin\fP posibilidades 
+.PP
+.nf
+ ['Old u\&.Dirich', 'Old u\&.Neumann', 'Elementos marcados para refinar' ] 
+
+.fi
+.PP
+\&.
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIcoordenadas\fP Matriz \&. Define un nuevo u\&.node 
+.br
+\fInewElements\fP Matriz \&. Define un nuevo u\&.pnod 
+.br
+\fIvarargout\fP posibilidades 
+.PP
+.nf
+ ['new u\&.Dirich', 'new u\&.Neumann'] 
+
+.fi
+.PP
+\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

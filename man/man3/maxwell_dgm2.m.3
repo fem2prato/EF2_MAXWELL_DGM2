@@ -1,0 +1,65 @@
+.TH "maxwell_dgm2.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+maxwell_dgm2.m \- 
+.PP
+Programa Principal para la aproximación de soluciones de un problema de Eddy current dependiente del tiempo \begin{eqnarray*} \frac{ \partial \bds{E}}{dt} + \curl{\Big ( \alpha \cdot \curl{E}\Big )} &=& f \mbox{ en $\Omega \times (0,T]$}\\ \bds{E} \times \bds{n} &=& g \mbox{ en $\partial \Omega \times (0,T]$}\\ \bds{E} &=& 0 \mbox{ en $ \Omega \times \{0\}$} \end{eqnarray*} en 2D utilizando para la discretización en el tiempo polinomios cuadráticos vía DGM y para la discrezación del espacio elementos de Whitney\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, u > \fBmaxwell_dgm2\fP (matlabtypesubstitute mode, matlabtypesubstitute rhs, matlabtypesubstitute iter)"
+.br
+.RI "\fIPrograma Principal para la aproximación de soluciones de un problema de Eddy current dependiente del tiempo \begin{eqnarray*} \frac{ \partial \bds{E}}{dt} + \curl{\Big ( \alpha \cdot \curl{E}\Big )} &=& f \mbox{ en $\Omega \times (0,T]$}\\ \bds{E} \times \bds{n} &=& g \mbox{ en $\partial \Omega \times (0,T]$}\\ \bds{E} &=& 0 \mbox{ en $ \Omega \times \{0\}$} \end{eqnarray*} en 2D utilizando para la discretización en el tiempo polinomios cuadráticos vía DGM y para la discrezación del espacio elementos de Whitney\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Programa Principal para la aproximación de soluciones de un problema de Eddy current dependiente del tiempo \begin{eqnarray*} \frac{ \partial \bds{E}}{dt} + \curl{\Big ( \alpha \cdot \curl{E}\Big )} &=& f \mbox{ en $\Omega \times (0,T]$}\\ \bds{E} \times \bds{n} &=& g \mbox{ en $\partial \Omega \times (0,T]$}\\ \bds{E} &=& 0 \mbox{ en $ \Omega \times \{0\}$} \end{eqnarray*} en 2D utilizando para la discretización en el tiempo polinomios cuadráticos vía DGM y para la discrezación del espacio elementos de Whitney\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsInnerSubst< matlabtypesubstitute, u > \fBmaxwell_dgm2\fP (matlabtypesubstitutemode, matlabtypesubstituterhs, matlabtypesubstituteiter)"
+
+.PP
+Programa Principal para la aproximación de soluciones de un problema de Eddy current dependiente del tiempo \begin{eqnarray*} \frac{ \partial \bds{E}}{dt} + \curl{\Big ( \alpha \cdot \curl{E}\Big )} &=& f \mbox{ en $\Omega \times (0,T]$}\\ \bds{E} \times \bds{n} &=& g \mbox{ en $\partial \Omega \times (0,T]$}\\ \bds{E} &=& 0 \mbox{ en $ \Omega \times \{0\}$} \end{eqnarray*} en 2D utilizando para la discretización en el tiempo polinomios cuadráticos vía DGM y para la discrezación del espacio elementos de Whitney\&. \fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-20
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fImode\fP Determina las condiciones de frontera que se definen en el archivo malla*\&.m 
+.br
+ mode = 1 => Dirichlet 
+.br
+ mode > 2 => Neumann o condiciones mixtas 
+.br
+\fIrhs\fP Id de la función $f$ del lado derecho\&.Se define en el archivo \fBrhs_Maxw\&.m\fP 
+.br
+\fIiter\fP Número de iteraciones
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIu\fP Estructura que contiene la información de mallas y solución para cada iteración 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

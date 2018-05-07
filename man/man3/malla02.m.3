@@ -1,0 +1,89 @@
+.TH "malla02.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+malla02.m \- 
+.PP
+Inicializa la geometria $ [-1,1] \times [-1,1] $ 
+.br
+\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, u > \fBmalla02\fP (matlabtypesubstitute mode)"
+.br
+.RI "\fIInicializa la geometria $ [-1,1] \times [-1,1] $ 
+.br
+\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Inicializa la geometria $ [-1,1] \times [-1,1] $ 
+.br
+\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsInnerSubst< matlabtypesubstitute, u > \fBmalla02\fP (matlabtypesubstitutemode)"
+
+.PP
+Inicializa la geometria $ [-1,1] \times [-1,1] $ 
+.br
+\&. .PP
+\fBParameters:\fP
+.RS 4
+\fImode\fP Entero\&. Determina las condiciones de frontera
+.IP "\(bu" 2
+mode=1: Dirichlet
+.IP "\(bu" 2
+mode > 1: Condiciones Mixtas o Neumann
+.PP
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIu\fP Estructura que contiene la malla y condiciones de frontera\&.
+.RE
+.PP
+\fBGenerated fields of u:\fP
+.RS 4
+
+.PD 0
+
+.IP "\(bu" 2
+\fCu\&.node --- \fP Matriz de orden (No\&. Puntos) x 2\&. Contiene las coordenadas de los puntos\&. 
+.IP "\(bu" 2
+\fCu\&.pnod --- \fP Matriz de orden (No\&. Elementos) x 3\&. Contiene los nodos de cada elemento 
+.IP "\(bu" 2
+\fCu\&.numnod --- \fP Entero\&. Número de nodos\&. 
+.IP "\(bu" 2
+\fCu\&.Dirich --- \fP Matriz de orden (No\&. lados Dirichlet) x 2\&. Contiene los nodos de cada elemento de frontera con condición de Dirichlet\&. 
+.IP "\(bu" 2
+\fCu\&.Neumann --- \fP Matriz de orden (No\&. lados Neumann) x 2\&. Contiene los nodos de cada elemento de frontera con condición de Neumann\&. 
+.PP
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-20 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

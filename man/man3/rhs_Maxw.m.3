@@ -1,0 +1,138 @@
+.TH "rhs_Maxw.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+rhs_Maxw.m \- 
+.PP
+Acopla la matriz de lado derecho local \[ \int_{\Omega}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D)  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, F > \fBrhs_Maxw\fP (matlabtypesubstitute u, matlabtypesubstitute rhs, matlabtypesubstitute i, matlabtypesubstitute Z)"
+.br
+.RI "\fIAcopla la matriz de lado derecho local \[ \int_{\Omega}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fP"
+.ti -1c
+.RI "mlhsSubst< mlhsInnerSubst
+.br
+< matlabtypesubstitute, B >
+.br
+,mlhsInnerSubst
+.br
+< matlabtypesubstitute, C > > \fBmtoc_subst_rhs_Maxw_m_tsbus_cotm_rhs_Maxw_elem\fP (matlabtypesubstitute u, matlabtypesubstitute rhs, matlabtypesubstitute k, matlabtypesubstitute a, matlabtypesubstitute b)"
+.br
+.RI "\fICalcula la matriz de lado derecho local \[ \int_{T_i}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Acopla la matriz de lado derecho local \[ \int_{\Omega}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsSubst< mlhsInnerSubst< matlabtypesubstitute, B >,mlhsInnerSubst< matlabtypesubstitute, C > > \fBmtoc_subst_rhs_Maxw_m_tsbus_cotm_rhs_Maxw_elem\fP (matlabtypesubstituteu, matlabtypesubstituterhs, matlabtypesubstitutek, matlabtypesubstitutea, matlabtypesubstituteb)"
+
+.PP
+Calcula la matriz de lado derecho local \[ \int_{T_i}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIrhs\fP Id\&. de la solución exacta\&. 
+.br
+\fIk\fP Id del elemento en la triangulación 
+.br
+\fIa\fP Lado izquierdo del intervalo del tiempo 
+.br
+\fIb\fP Lado derecho del intervalo del tiempo
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIB\fP Matriz\&. Lado derecho asociado al curl curl u 
+.br
+\fIC\fP Matriz\&. Lado derecho asociado al $ \partial_t u $
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.PD 0
+
+.IP "\(bu" 2
+\fCu\&.pnod --- \fP nodos globales asociadas al elemento i 
+.IP "\(bu" 2
+\fCu\&.node --- \fP coordenadas de los elementos de la triangulación 
+.PP
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-20 
+.RE
+.PP
+
+.SS "mlhsInnerSubst< matlabtypesubstitute, F > \fBrhs_Maxw\fP (matlabtypesubstituteu, matlabtypesubstituterhs, matlabtypesubstitutei, matlabtypesubstituteZ)"
+
+.PP
+Acopla la matriz de lado derecho local \[ \int_{\Omega}\,f(x) \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIrhs\fP Id\&. de la solución exacta\&. 
+.br
+\fIi\fP Id del elemento en la triangulación 
+.br
+\fIZ\fP Estructura del tiempo
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIF\fP Matriz\&. Lado derecho
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.PD 0
+
+.IP "\(bu" 2
+\fCu\&.pnod --- \fP nodos globales asociadas al elemento i 
+.IP "\(bu" 2
+\fCu\&.node --- \fP coordenadas de los elementos de la triangulación 
+.PP
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-20
+.RE
+.PP
+\fBRequired fields of Z:\fP
+.RS 4
+
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

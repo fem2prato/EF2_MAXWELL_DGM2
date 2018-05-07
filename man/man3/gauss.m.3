@@ -1,0 +1,95 @@
+.TH "gauss.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+gauss.m \- 
+.PP
+Genera los puntos $ x_i $ y los pesos $ w_i $ para una cuadratura Gauss-Legendre \[ \int_{a}^b W(x) \cdot f(t) dt \approx \sum_{i=1}^{n} w_i \, f(x_i) \] siguiendo lo propuesto en la sección 4\&.6 de 
+.br
+ Numerical Recipes: The Art of Scientific Computing 
+.br
+ Third Edition (2007) 
+.br
+ Cambridge University Press 
+.br
+ ISBN-10: 0521880688\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsSubst< mlhsInnerSubst
+.br
+< matlabtypesubstitute, x >
+.br
+,mlhsInnerSubst
+.br
+< matlabtypesubstitute, w > > \fBgauss\fP (matlabtypesubstitute n)"
+.br
+.RI "\fIGenera los puntos $ x_i $ y los pesos $ w_i $ para una cuadratura Gauss-Legendre \[ \int_{a}^b W(x) \cdot f(t) dt \approx \sum_{i=1}^{n} w_i \, f(x_i) \] siguiendo lo propuesto en la sección 4\&.6 de 
+.br
+ Numerical Recipes: The Art of Scientific Computing 
+.br
+ Third Edition (2007) 
+.br
+ Cambridge University Press 
+.br
+ ISBN-10: 0521880688\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Genera los puntos $ x_i $ y los pesos $ w_i $ para una cuadratura Gauss-Legendre \[ \int_{a}^b W(x) \cdot f(t) dt \approx \sum_{i=1}^{n} w_i \, f(x_i) \] siguiendo lo propuesto en la sección 4\&.6 de 
+.br
+ Numerical Recipes: The Art of Scientific Computing 
+.br
+ Third Edition (2007) 
+.br
+ Cambridge University Press 
+.br
+ ISBN-10: 0521880688\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsSubst< mlhsInnerSubst< matlabtypesubstitute, x >,mlhsInnerSubst< matlabtypesubstitute, w > > \fBgauss\fP (matlabtypesubstituten)"
+
+.PP
+Genera los puntos $ x_i $ y los pesos $ w_i $ para una cuadratura Gauss-Legendre \[ \int_{a}^b W(x) \cdot f(t) dt \approx \sum_{i=1}^{n} w_i \, f(x_i) \] siguiendo lo propuesto en la sección 4\&.6 de 
+.br
+ Numerical Recipes: The Art of Scientific Computing 
+.br
+ Third Edition (2007) 
+.br
+ Cambridge University Press 
+.br
+ ISBN-10: 0521880688\&. \fBParameters:\fP
+.RS 4
+\fIn\fP número de puntos de cuadratura
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIx\fP Puntos de cuadratura 
+.br
+\fIw\fP Pesos Gaussianos 
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-24 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

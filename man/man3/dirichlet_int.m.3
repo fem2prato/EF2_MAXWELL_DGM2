@@ -1,0 +1,125 @@
+.TH "dirichlet_int.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+dirichlet_int.m \- 
+.PP
+Calcula la integral total de frontera para problemas no homogeneos \[ \int_{ \partial \Omega} \, n \times \curl{\bds{u}} \cdot \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D)  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, FT > \fBdirichlet_int\fP (matlabtypesubstitute u, matlabtypesubstitute rhs, matlabtypesubstitute Z)"
+.br
+.RI "\fICalcula la integral total de frontera para problemas no homogeneos \[ \int_{ \partial \Omega} \, n \times \curl{\bds{u}} \cdot \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fP"
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, F > \fBmtoc_subst_dirichlet_int_m_tsbus_cotm_int_lado\fP (matlabtypesubstitute u, matlabtypesubstitute k, matlabtypesubstitute j, matlabtypesubstitute rhs, matlabtypesubstitute Z)"
+.br
+.RI "\fICalcula la integral de frontera para problemas no homogeneos \[ \int_{\Gamma_k}\, n \times f(x) \bds{\phi}_j \, \mathrm{d}x \] sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fP"
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, Es > \fBmtoc_subst_dirichlet_int_m_tsbus_cotm_ncurl_u\fP (matlabtypesubstitute xs, matlabtypesubstitute n, matlabtypesubstitute rhs)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Calcula la integral total de frontera para problemas no homogeneos \[ \int_{ \partial \Omega} \, n \times \curl{\bds{u}} \cdot \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsInnerSubst< matlabtypesubstitute, FT > \fBdirichlet_int\fP (matlabtypesubstituteu, matlabtypesubstituterhs, matlabtypesubstituteZ)"
+
+.PP
+Calcula la integral total de frontera para problemas no homogeneos \[ \int_{ \partial \Omega} \, n \times \curl{\bds{u}} \cdot \bds{\phi}_j \, \mathrm{d}x \] donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-04-25
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIrhs\fP Id\&. del lado derecho 
+.br
+\fIZ\fP Estructura para el tiempo
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIFT\fP FT 
+.br
+\fIF\fP Matriz\&. Lado derecho
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "mlhsInnerSubst< matlabtypesubstitute, F > \fBmtoc_subst_dirichlet_int_m_tsbus_cotm_int_lado\fP (matlabtypesubstituteu, matlabtypesubstitutek, matlabtypesubstitutej, matlabtypesubstituterhs, matlabtypesubstituteZ)"
+
+.PP
+Calcula la integral de frontera para problemas no homogeneos \[ \int_{\Gamma_k}\, n \times f(x) \bds{\phi}_j \, \mathrm{d}x \] sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-04-25
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIk\fP Id del elemento de frontera 
+.br
+\fIj\fP Id del elemento de frontera 
+.br
+\fIrhs\fP Id\&. del lado derecho 
+.br
+\fIZ\fP Estructura\&. Información del tiempo\&.
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIF\fP Matriz\&. Lado derecho
+.RE
+.PP
+\fBRequired fields of Z:\fP
+.RS 4
+
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "mlhsInnerSubst<matlabtypesubstitute,Es> \fBmtoc_subst_dirichlet_int_m_tsbus_cotm_ncurl_u\fP (matlabtypesubstitutexs, matlabtypesubstituten, matlabtypesubstituterhs)"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

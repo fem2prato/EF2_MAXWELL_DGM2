@@ -1,0 +1,73 @@
+.TH "Whitney_func_Maxwell.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Whitney_func_Maxwell.m \- 
+.PP
+Calcula el valor en el punto $ \bds{x}$ de la función base $\bds{\phi}^i$ (elementos de Whitney 2D) definido por \[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \] donde $ co=[k,\, j] $\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, v > \fBWhitney_func_Maxwell\fP (matlabtypesubstitute u, matlabtypesubstitute i, matlabtypesubstitute co, matlabtypesubstitute x)"
+.br
+.RI "\fICalcula el valor en el punto $ \bds{x}$ de la función base $\bds{\phi}^i$ (elementos de Whitney 2D) definido por \[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \] donde $ co=[k,\, j] $\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Calcula el valor en el punto $ \bds{x}$ de la función base $\bds{\phi}^i$ (elementos de Whitney 2D) definido por \[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \] donde $ co=[k,\, j] $\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsInnerSubst< matlabtypesubstitute, v > \fBWhitney_func_Maxwell\fP (matlabtypesubstituteu, matlabtypesubstitutei, matlabtypesubstituteco, matlabtypesubstitutex)"
+
+.PP
+Calcula el valor en el punto $ \bds{x}$ de la función base $\bds{\phi}^i$ (elementos de Whitney 2D) definido por \[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \] donde $ co=[k,\, j] $\&. \fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-21
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIi\fP Id del elemento en la triangulación 
+.br
+\fIco\fP Lista de orden de los nodos 
+.br
+\fIx\fP punto
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIv\fP $\bds{\phi}_j^i(\bds{x} )$
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.PD 0
+
+.IP "\(bu" 2
+\fCu\&.alfa --- \fP coordenadas baricentricas asociadas al elemento i 
+.PP
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

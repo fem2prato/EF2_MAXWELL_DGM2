@@ -1,0 +1,152 @@
+.TH "shownu.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+shownu.m \- 
+.PP
+Grafica la malla, y permite mostrar los elementos, nodos, y lados asociados a la misma\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "noret::substitute \fBshownu\fP (matlabtypesubstitute u, matlabtypesubstitute \fBvarargin\fP)"
+.br
+.RI "\fIGrafica la malla, y permite mostrar los elementos, nodos, y lados asociados a la misma\&. \fP"
+.ti -1c
+.RI "mlhsSubst< mlhsInnerSubst
+.br
+< matlabtypesubstitute, 
+.br
+numofnod >,mlhsInnerSubst
+.br
+< matlabtypesubstitute, 
+.br
+numofel >,mlhsInnerSubst
+.br
+< matlabtypesubstitute, 
+.br
+numofed > > \fBmtoc_subst_shownu_m_tsbus_cotm_check\fP (matlabtypesubstitute \fBvarargin\fP)"
+.br
+.RI "\fIverifica la presencia los argumentos opcionales de la lista \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Grafica la malla, y permite mostrar los elementos, nodos, y lados asociados a la misma\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsSubst< mlhsInnerSubst< matlabtypesubstitute, numofnod >,mlhsInnerSubst< matlabtypesubstitute, numofel >,mlhsInnerSubst< matlabtypesubstitute, numofed > > \fBmtoc_subst_shownu_m_tsbus_cotm_check\fP (matlabtypesubstitutevarargin)"
+
+.PP
+verifica la presencia los argumentos opcionales de la lista .PP
+.nf
+ ['nodos', 'elementos', 'lados' ] 
+.fi
+.PP
+\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-20
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvarargin\fP Alguno o todos los elementos de la lista 
+.PP
+.nf
+ ['elementos', 'nodos', 'lados' ] 
+
+.fi
+.PP
+\&.
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fInumofnod\fP Si nodos está es igual a 1, en otro caso 0 
+.br
+\fInumofel\fP Si elementos está es igual a 1, en otro caso 0 
+.br
+\fInumofed\fP Si lados está es igual a 1, en otro caso 0 
+.RE
+.PP
+
+.SS "noret::substitute \fBshownu\fP (matlabtypesubstituteu, matlabtypesubstitutevarargin)"
+
+.PP
+Grafica la malla, y permite mostrar los elementos, nodos, y lados asociados a la misma\&. \fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIvarargin\fP String\&. Seleccione de la lista 
+.PP
+.nf
+ ['elementos', 'nodos', 'lados' ] 
+
+.fi
+.PP
+\&.
+.IP "\(bu" 2
+.PP
+.nf
+'elementos': ubica la numeración de los elementos .fi
+.PP
+
+.IP "\(bu" 2
+.PP
+.nf
+'nodos' :ubica la numeración de los nodos  .fi
+.PP
+
+.IP "\(bu" 2
+.PP
+.nf
+'lados' : ubica la numeración de los lados  .fi
+.PP
+
+.PP
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.PD 0
+
+.IP "\(bu" 2
+\fCu\&.node --- \fP Matriz de orden (No\&. Puntos) x 2\&. Contiene las coordenadas de los puntos\&. 
+.IP "\(bu" 2
+\fCu\&.pnod --- \fP Matriz de orden (No\&. Elementos) x 3\&. Contiene los nodos de cada elemento 
+.IP "\(bu" 2
+\fCu\&.numnod --- \fP Entero\&. Número de nodos\&. 
+.IP "\(bu" 2
+\fCu\&.ed2nod --- \fP Matriz de orden (No\&. lados) x 2\&. Contiene nodos globales asociados a cada lado\&. 
+.PP
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-05-02 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

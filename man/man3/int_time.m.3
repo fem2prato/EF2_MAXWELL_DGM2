@@ -1,0 +1,65 @@
+.TH "int_time.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+int_time.m \- 
+.PP
+Calcula el valor de las integrales \begin{eqnarray*} I_1 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_2 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_3 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_4 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_5 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g(t) \, dt &\qquad& I_6 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g^{\prime}(t) \, dt \ \end{eqnarray*}\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, Z > \fBint_time\fP (matlabtypesubstitute Z)"
+.br
+.RI "\fICalcula el valor de las integrales \begin{eqnarray*} I_1 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_2 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_3 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_4 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_5 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g(t) \, dt &\qquad& I_6 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g^{\prime}(t) \, dt \ \end{eqnarray*}\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Calcula el valor de las integrales \begin{eqnarray*} I_1 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_2 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_3 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_4 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_5 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g(t) \, dt &\qquad& I_6 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g^{\prime}(t) \, dt \ \end{eqnarray*}\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsInnerSubst< matlabtypesubstitute, Z > \fBint_time\fP (matlabtypesubstituteZ)"
+
+.PP
+Calcula el valor de las integrales \begin{eqnarray*} I_1 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_2 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_3 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_4 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_5 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g(t) \, dt &\qquad& I_6 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g^{\prime}(t) \, dt \ \end{eqnarray*}\&. \fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-04-01
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIZ\fP \fBEstructura\fP que contiene los datos del tiempo
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIZ\fP $[I_1,I_2,I_3,I_4,I_5,I_6]$
+.RE
+.PP
+\fBRequired fields of Z:\fP
+.RS 4
+
+.RE
+.PP
+\fBGenerated fields of Z:\fP
+.RS 4
+
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

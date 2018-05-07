@@ -1,0 +1,120 @@
+.TH "E_error3.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+E_error3.m \- 
+.PP
+Calcula el error (en caso de tener solución exacta) \[ \Vert E-E_h \Vert_{H(curl,\Omega)} \]\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, err > \fBE_error3\fP (matlabtypesubstitute u, matlabtypesubstitute Z, matlabtypesubstitute xh, matlabtypesubstitute rhs)"
+.br
+.RI "\fICalcula el error (en caso de tener solución exacta) \[ \Vert E-E_h \Vert_{H(curl,\Omega)} \]\&. \fP"
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, saa > \fBmtoc_subst_E_error3_m_tsbus_cotm_checkwhitney\fP (matlabtypesubstitute u, matlabtypesubstitute k, matlabtypesubstitute ld, matlabtypesubstitute id, matlabtypesubstitute rhs, matlabtypesubstitute tk)"
+.br
+.RI "\fIDetermina el Id\&. del lado al que esta asociado la función de Whitney\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Calcula el error (en caso de tener solución exacta) \[ \Vert E-E_h \Vert_{H(curl,\Omega)} \]\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsInnerSubst< matlabtypesubstitute, err > \fBE_error3\fP (matlabtypesubstituteu, matlabtypesubstituteZ, matlabtypesubstitutexh, matlabtypesubstituterhs)"
+
+.PP
+Calcula el error (en caso de tener solución exacta) \[ \Vert E-E_h \Vert_{H(curl,\Omega)} \]\&. sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D)
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-30
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIZ\fP Estructura para el tiempo 
+.br
+\fIxh\fP Solución aproximada 
+.br
+\fIrhs\fP Id\&. de la solución exacta
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIerr\fP Matriz\&. Error
+.RE
+.PP
+\fBRequired fields of Z:\fP
+.RS 4
+
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "mlhsInnerSubst< matlabtypesubstitute, saa > \fBmtoc_subst_E_error3_m_tsbus_cotm_checkwhitney\fP (matlabtypesubstituteu, matlabtypesubstitutek, matlabtypesubstituteld, matlabtypesubstituteid, matlabtypesubstituterhs, matlabtypesubstitutetk)"
+
+.PP
+Determina el Id\&. del lado al que esta asociado la función de Whitney\&. \fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-04-25
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIk\fP Id\&. del elemento 
+.br
+\fIld\fP Id\&. del lado 
+.br
+\fIid\fP numero de co 
+.br
+\fIrhs\fP Id\&. de la solución exacta 
+.br
+\fItk\fP Tiempo
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIsaa\fP Relacion lado-función
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

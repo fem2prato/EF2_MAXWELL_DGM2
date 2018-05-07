@@ -1,0 +1,123 @@
+.TH "Stiff_Maxwell.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Stiff_Maxwell.m \- 
+.PP
+Calcula la matriz de rigidez local $ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D)  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsSubst< mlhsInnerSubst
+.br
+< matlabtypesubstitute, M >
+.br
+,mlhsInnerSubst
+.br
+< matlabtypesubstitute, S > > \fBStiff_Maxwell\fP (matlabtypesubstitute u, matlabtypesubstitute k)"
+.br
+.RI "\fICalcula la matriz de rigidez local $ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fP"
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, curl_w > \fBmtoc_subst_Stiff_Maxwell_m_tsbus_cotm_Curl_whitney_maxwell\fP (matlabtypesubstitute u, matlabtypesubstitute i, matlabtypesubstitute co)"
+.br
+.RI "\fICalcula el rotacional $ \mrom{curl}\,\bds{\phi}_j$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Calcula la matriz de rigidez local $ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsInnerSubst< matlabtypesubstitute, curl_w > \fBmtoc_subst_Stiff_Maxwell_m_tsbus_cotm_Curl_whitney_maxwell\fP (matlabtypesubstituteu, matlabtypesubstitutei, matlabtypesubstituteco)"
+
+.PP
+Calcula el rotacional $ \mrom{curl}\,\bds{\phi}_j$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIi\fP Id del elemento en la triangulación 
+.br
+\fIco\fP Lista de orden de los nodos
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIcurl_w\fP rotacional
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.PD 0
+
+.IP "\(bu" 2
+\fCu\&.alfa --- \fP coordenadas barcetricas asociadas al elemento i 
+.PP
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-23 
+.RE
+.PP
+
+.SS "mlhsSubst< mlhsInnerSubst< matlabtypesubstitute, M >,mlhsInnerSubst< matlabtypesubstitute, S > > \fBStiff_Maxwell\fP (matlabtypesubstituteu, matlabtypesubstitutek)"
+
+.PP
+Calcula la matriz de rigidez local $ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$ sobre el elemento $ T_k $ donde $ \bds{\phi}_i $ es una función base (elementos de Whitney en 2D) \fBParameters:\fP
+.RS 4
+\fIu\fP \fBEstructura\fP 
+.br
+\fIk\fP Id del elemento en la triangulación
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIM\fP matriz de rigidez 
+.br
+\fIS\fP S
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.PD 0
+
+.IP "\(bu" 2
+\fCu\&.pnod --- \fP nodos globales asociadas al elemento i 
+.IP "\(bu" 2
+\fCu\&.node --- \fP coordenadas de los elementos de la triangulación 
+.PP
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-23 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.

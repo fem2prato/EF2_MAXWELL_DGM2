@@ -1,0 +1,133 @@
+.TH "Edgesnum_Maxwell.m" 3 "Mon Nov 12 2012" "Version 1.0" "EF2:Maxwell_DGM2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Edgesnum_Maxwell.m \- 
+.PP
+Inicializa la numeración de los lados de la malla provista por malla*\&.m y calcula los coeficientes de la funciones bases $ \bds{\phi}_i $ de $ \mathbb{P}_1 $\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "mlhsInnerSubst
+.br
+< matlabtypesubstitute, u > \fBEdgesnum_Maxwell\fP (matlabtypesubstitute u)"
+.br
+.RI "\fIInicializa la numeración de los lados de la malla provista por malla*\&.m y calcula los coeficientes de la funciones bases $ \bds{\phi}_i $ de $ \mathbb{P}_1 $\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Inicializa la numeración de los lados de la malla provista por malla*\&.m y calcula los coeficientes de la funciones bases $ \bds{\phi}_i $ de $ \mathbb{P}_1 $\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "mlhsInnerSubst< matlabtypesubstitute, u > \fBEdgesnum_Maxwell\fP (matlabtypesubstituteu)"
+
+.PP
+Inicializa la numeración de los lados de la malla provista por malla*\&.m y calcula los coeficientes de la funciones bases $ \bds{\phi}_i $ de $ \mathbb{P}_1 $\&. .PP
+\fBParameters:\fP
+.RS 4
+\fIu\fP Estructura que contiene la malla y condiciones de frontera\&.
+.RE
+.PP
+\fBReturn values:\fP
+.RS 4
+\fIu\fP Estructura que contiene la malla y condiciones de frontera\&.
+.RE
+.PP
+\fBRequired fields of u:\fP
+.RS 4
+
+.RE
+.PP
+\fBGenerated fields of u:\fP
+.RS 4
+
+.PD 0
+
+.IP "\(bu" 2
+\fCu\&.intnodes --- \fP Matriz de orden (No\&. lados interiores) x 5\&. Contiene: 
+.PP
+.nf
+ ['Id\&. nodo1', 'Id\&. nodo2', 'Id\&. lado', 'Id\&. vecino Elem1', 'Id\&. vecino Elem2' ]
+
+.fi
+.PP
+ 
+.IP "\(bu" 2
+\fCu\&.ed2nod --- \fP Matriz de orden (No\&. lados ) x 2\&. Contiene: 
+.PP
+.nf
+ ['Id\&. nodo1', 'Id\&. nodo2']
+
+.fi
+.PP
+ 
+.IP "\(bu" 2
+\fCu\&.el2ed --- \fP Matriz de orden (No\&. Elementos ) x 3\&. Contiene: 
+.PP
+.nf
+ ['Id\&. lado1', 'Id\&. lado2' 'Id\&. lado3']
+
+.fi
+.PP
+ 
+.IP "\(bu" 2
+\fCu\&.nel --- \fP Entero\&. Número de elementos \&. 
+.IP "\(bu" 2
+\fCu\&.noedges --- \fP Entero\&. Número de lados\&. 
+.IP "\(bu" 2
+\fCu\&.nointedges --- \fP Entero\&. Número de lados interiores\&. 
+.IP "\(bu" 2
+\fCu\&.noextedges --- \fP Entero\&. Número de lados exteriores \&. 
+.IP "\(bu" 2
+\fCu\&.numnod --- \fP Entero\&. Número de nodos\&. u\&.freek=Matriz de orden (No\&. lados libres ) x 1\&. Contiene: 
+.PP
+.nf
+ ['Id\&. lado libre ']
+
+.fi
+.PP
+ u\&.randk=Matriz de orden (No\&. lados frontera ) x 1\&. Contiene: 
+.PP
+.nf
+ ['Id\&. lado frontera']
+
+.fi
+.PP
+ 
+.IP "\(bu" 2
+\fCu\&.dirichlet --- \fP Matriz de orden (No\&. lados dirichlet -ordenados- ) x 2\&. Contiene: 
+.PP
+.nf
+ ['Id\&. nodo1' 'Id\&. nodo2']
+
+.fi
+.PP
+ 
+.IP "\(bu" 2
+\fCu\&.alfas --- \fP Matriz de orden $ 3 \times 3 \times \mbox{u.nel } $\&. Calcula la matriz \[ \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23}\\ a_{31} & a_{32} & a_{33} \end{pmatrix} \] donde $ \bds{\lambda}_i(x,y) = a_{i1}+a_{(i+1)1}x+a_{(i+1)1}y$, define la i-esima coordenadas baricentricas asociadas al elemento\&. 
+.PP
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Ricardo Prato 
+.PP
+Catalina Dominguez 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+2012-03-20 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EF2:Maxwell_DGM2 from the source code\&.
