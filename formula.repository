@@ -1,0 +1,32 @@
+\form#0:\[ \int_{ \partial \Omega} \, n \times \curl{\bds{u}} \cdot \bds{\phi}_j \, \mathrm{d}x \]
+\form#1:$ \bds{\phi}_i $
+\form#2:\[ \int_{\Gamma_k}\, n \times f(x) \bds{\phi}_j \, \mathrm{d}x \]
+\form#3:$ T_k $
+\form#4:\[ \Vert E-E_h \Vert_{H(curl,\Omega)} \]
+\form#5:$ \mathbb{P}_1 $
+\form#6:$ 3 \times 3 \times \mbox{u.nel } $
+\form#7:\[ \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23}\\ a_{31} & a_{32} & a_{33} \end{pmatrix} \]
+\form#8:$ \bds{\lambda}_i(x,y) = a_{i1}+a_{(i+1)1}x+a_{(i+1)1}y$
+\form#9:$ x_i $
+\form#10:$ w_i $
+\form#11:\[ \int_{a}^b W(x) \cdot f(t) dt \approx \sum_{i=1}^{n} w_i \, f(x_i) \]
+\form#12:\begin{eqnarray*} I_1 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_2 =\int_{t_{n-1}}^{t_{n}} (t-t_{m})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_3 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g(t) \, dt &\qquad& I_4 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{n} \cdot g^{\prime}(t) \, dt \\[3mm] I_5 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g(t) \, dt &\qquad& I_6 = \int_{t_{n-1}}^{t_{n}} (t-t_{n-1})\cdot t_{m} \cdot g^{\prime}(t) \, dt \ \end{eqnarray*}
+\form#13:$[I_1,I_2,I_3,I_4,I_5,I_6]$
+\form#14:$ [0,1] \times [0,1] $
+\form#15:$ [-1,1] \times [-1,1] $
+\form#16:\begin{eqnarray*} \frac{ \partial \bds{E}}{dt} + \curl{\Big ( \alpha \cdot \curl{E}\Big )} &=& f \mbox{ en $\Omega \times (0,T]$}\\ \bds{E} \times \bds{n} &=& g \mbox{ en $\partial \Omega \times (0,T]$}\\ \bds{E} &=& 0 \mbox{ en $ \Omega \times \{0\}$} \end{eqnarray*}
+\form#17:$f$
+\form#18:\[ f(t,\bds{x})=-\partial_t \bds{J}=\sigma \partial_t \bds{E} + \frac{1}{\mu} \curl{\curl{E}} \]
+\form#19:$\bds{E} (t,\bds{x})=g(t) \cdot h(\bds{x})$
+\form#20:$ \frac{1}{\mu} \curl{\curl{h(\bds{x})}} $
+\form#21:$ \sigma \partial_t {h(\bds{x})} $
+\form#22:\[ \int_{\Omega}\,f(x) \bds{\phi}_j \, \mathrm{d}x \]
+\form#23:\[ \int_{T_i}\,f(x) \bds{\phi}_j \, \mathrm{d}x \]
+\form#24:$ \partial_t u $
+\form#25:$ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$
+\form#26:$ \mrom{curl}\,\bds{\phi}_j$
+\form#27:$ \bds{x}$
+\form#28:$\bds{\phi}^i$
+\form#29:\[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \]
+\form#30:$ co=[k,\, j] $
+\form#31:$\bds{\phi}_j^i(\bds{x} )$

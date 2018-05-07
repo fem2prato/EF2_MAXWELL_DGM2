@@ -1,0 +1,47 @@
+\form#0:\[ |I_2|=\left| \int_{0}^T \psi(t) \left\{ u(a,t)- \int_{\gamma(t)}^a \frac{d\theta}{k(\theta,t)} \int_{a}^\theta c(\xi)u_t(\xi,t)\,d\xi \right\} dt \right| \]
+\form#1:$phi_j$
+\form#2:$\phi_j$
+\form#3:$\mathbf{x}$
+\form#4:$\boldsymbol{x}$
+\form#5:$ \bds{x}$
+\form#6:$\bds{\phi}_j$
+\form#7:$\bds{\phi}_j^i$
+\form#8:\[ \begin{align*} \bds{\phi}_1^i:= \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 \end{align*} \]
+\form#9:\begin{align*} \bds{\phi}_1^i:= \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 \end{align*} \end{align*}
+\form#10:\begin{align*} \bds{\phi}_1^i:= \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 \end{align*}
+\form#11:\begin{align*} \bds{\phi}_1^i&:= \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_2^i&:= \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_3^i&:= \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_2\ \end{align*}
+\form#12:\begin{eqnarray*} \bds{\phi}_1^i&:=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_2^i&:=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_3^i&:=& \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_2\ \end{eqnarray*}
+\form#13:\begin{eqnarray*} \bds{\phi}_1^i &:=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_2^i &:=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_3^i &:=& \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_2\ \end{eqnarray*}
+\form#14:\begin{eqnarray*} \bds{\phi}_1^i &:=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_2^i &:=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_3^i &:=& \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_2 \end{eqnarray*}
+\form#15:\begin{align*} \bds{\phi}_1^i &:= \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_2^i &:= \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_3^i &:= \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_2 \end{align*}
+\form#16:\begin{eqnarray*} \bds{\phi}_1^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_2^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_3^i &=& \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_2 \end{eqnarray*}
+\form#17:\begin{align*} \bds{\phi}_1^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_2^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1\ \bds{\phi}_3^i &=& \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_2 \end{align*}
+\form#18:\begin{eqnarray*} \bds{\phi}_1^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1 \ \bds{\phi}_2^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1 \ \bds{\phi}_3^i &=& \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_2 \end{eqnarray*}
+\form#19:\begin{eqnarray*} g &=& \frac{Gm_2}{r^2} \\ &=& \frac{(6.673 \times 10^{-11}\,\mbox{m}^3\,\mbox{kg}^{-1}\, \mbox{s}^{-2})(5.9736 \times 10^{24}\,\mbox{kg})}{(6371.01\,\mbox{km})^2} \\ &=& 9.82066032\,\mbox{m/s}^2 \end{eqnarray*}
+\form#20:\begin{eqnarray*} \bds{\phi}_1^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1 \ \bds{\phi}_2^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1 \end{eqnarray*}
+\form#21:\begin{eqnarray*} \bds{\phi}_1^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1 \ &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1 \end{eqnarray*}
+\form#22:\begin{eqnarray*} \bds{\phi}_2^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1 \end{eqnarray*}
+\form#23:\begin{eqnarray*} \bds{\phi}_1^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1 \\ &=& \frac{(6.673 \times 10^{-11}\,\mbox{m}^3\,\mbox{kg}^{-1}\, \mbox{s}^{-2})(5.9736 \times 10^{24}\,\mbox{kg})}{(6371.01\,\mbox{km})^2} \\ &=& 9.82066032\,\mbox{m/s}^2 \end{eqnarray*}
+\form#24:\begin{eqnarray*} &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1 \end{eqnarray*}
+\form#25:\begin{eqnarray*} \bds{\phi}_1^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1 \\ \bds{\phi}_2^i &=& \frac{(6.673 \times 10^{-11}\,\mbox{m}^3\,\mbox{kg}^{-1}\, \mbox{s}^{-2})(5.9736 \times 10^{24}\,\mbox{kg})}{(6371.01\,\mbox{km})^2} \\ &=& 9.82066032\,\mbox{m/s}^2 \end{eqnarray*}
+\form#26:\begin{eqnarray*} \bds{\phi}_1^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1 \\ \bds{\phi}_2^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1 \\ &=& 9.82066032\,\mbox{m/s}^2 \end{eqnarray*}
+\form#27:\begin{eqnarray*} \bds{\phi}_1^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_2 - \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_1 \\ \bds{\phi}_2^i &=& \bds{\lambda}_1 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_1 \\ \bds{\phi}_3^i &=& \bds{\lambda}_2 \cdot \nabla \bds{\lambda}_3 - \bds{\lambda}_3 \cdot \nabla \bds{\lambda}_2 \end{eqnarray*}
+\form#28:$\bds{\phi}_j^i(\bds{x} )$
+\form#29:$x$
+\form#30:\[x\]
+\form#31:$A' * B'$
+\form#32:$ ( \mrom{curl} \bds{\phi}_i,\mrom{curl} \bds{\phi}_j)$
+\form#33:$ ( \mrom{curl}\, \bds{\phi}_i,\mrom{curl} \bds{\phi}_j)$
+\form#34:$ \bds{\phi}_i $
+\form#35:$ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)$
+\form#36:$ ( \mrom{curl}\,\bds{\phi}_i,\mrom{curl}\,\bds{\phi}_j)_{T_k}$
+\form#37:$ T_k $
+\form#38:\begin{eqnarray*} \bds{\phi}_1^i = \bds{\lambda}_i \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_i \]
+\form#39:$ \mrom{curl}\,\bds{\phi}_j$
+\form#40:\[ \bds{\phi}_1^i = \bds{\lambda}_i \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_i \]
+\form#41:$\bds{\phi}^i$
+\form#42:\[ \bds{\phi}^i = \bds{\lambda}_i \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_i \]
+\form#43:\[ \bds{\phi}^i = \bds{\lambda}_k \cdot \nabla \bds{\lambda}_j - \bds{\lambda}_j \cdot \nabla \bds{\lambda}_k \]
+\form#44:$ co=[k j] $
+\form#45:$ co=[k,\, j] $
+\form#46:$elementos$
